@@ -17,7 +17,8 @@ def meta(data,filename):
  if filename.startswith(('connector-','kotlinforforge-')):
   return {'name':'Sinytra Connector bootstrap' if filename.startswith('connector-') else 'Kotlin for Forge language provider','modIds':[]}
  raise ValueError('No mod identity: '+filename)
-def url(file):return 'https://github.com/'+repo+'/releases/download/'+tag+'/'+quote(file,safe='')
+assetnames=json.loads((out/'release-asset-names.json').read_text()) if (out/'release-asset-names.json').exists() else {}
+def url(file):return 'https://github.com/'+repo+'/releases/download/'+tag+'/'+quote(assetnames.get(file,file),safe='')
 source=root/'quest-refresh/Blacksite-Complete-Client-Star-Update.zip'
 manifest=json.loads((root/'quest-refresh/client-files.json').read_text())
 mods=[];settings={}
