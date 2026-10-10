@@ -1,6 +1,6 @@
 # Blacksite Zeta client mods
 
-client-star-1.3.0: 286 required mods and 4 optional performance mods.
+client-star-1.3.1: 287 required mods and 4 optional performance mods.
 
 | Mod | File | Required |
 |---|---|---|
@@ -97,7 +97,7 @@ client-star-1.3.0: 286 required mods and 4 optional performance mods.
 | BetterBlockZ | `betterblockz-0.2.10-1.21.1-neoforge.jar` | Yes |
 | biomemusic mod | `biomemusic-1.21.1-4.1.jar` | Yes |
 | Create Bits 'n' Bobs | `bits_n_bobs-2.3.2.jar` | Yes |
-| Blacksite Platform | `blacksite-platform-1.4.0.jar` | Yes |
+| Blacksite Platform | `blacksite-platform-1.4.1.jar` | Yes |
 | Blueprint | `blueprint-1.21.1-8.2.0.jar` | Yes |
 | Boat Item View | `boatiview-neoforge-0.0.6-1.21.1.jar` | Yes |
 | Boatload | `boatload-1.21.1-6.0.2.jar` | Yes |
@@ -294,3 +294,4 @@ client-star-1.3.0: 286 required mods and 4 optional performance mods.
 | Fzzy Config | `fzzy_config-0.7.7+1.21+neoforge.jar` | Optional |
 | More Culling | `moreculling-neoforge-1.21.1-1.0.10.jar` | Optional |
 | Create Nuclear | `createnuclear-2.0.0-neoforge.jar` | Yes |
+| Create Better FPS | `createbetterfps-1.21.1-1.1.5.jar` | Yes (author download) |

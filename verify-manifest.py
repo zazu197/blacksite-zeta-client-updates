@@ -2,7 +2,7 @@ import json,pathlib,re
 from urllib.parse import urlparse
 out=pathlib.Path(__file__).resolve().parent;m=json.loads((out/'client-manifest.json').read_text())
 assert m['schemaVersion']==1 and m['minecraft']=='1.21.1' and m['neoforge']=='21.1.250'
-assert len(m['mods'])==290 and sum(not x['optional'] for x in m['mods'])==286
+assert len(m['mods'])==291 and sum(not x['optional'] for x in m['mods'])==287
 paths=set();ids=set()
 for x in m['mods']:
  assert '/' not in x['file'] and '\\' not in x['file'] and x['file'].endswith('.jar')
@@ -22,4 +22,6 @@ assert len([p for p in paths if p.startswith('config/ftbquests/quests/chapters/'
 assert next(x for x in m['files'] if x['path']=='config/create_electric_blaze-common.toml')['policy']=='replace'
 assert json.loads((out/'installer-verification.json').read_text())['passed']
 assert json.loads((out/'package-verification.json').read_text())['passed']
-print('Validated complete client manifest, 286 required and four optional mod files, 66 quest chapters, and verified no-backup updater.')
+print('Validated complete client manifest, 287 required and four optional mod files, 66 quest chapters, and verified no-backup updater.')
+
+assert "createbetterfps" in ids and m["minimumInstallerVersion"]==3

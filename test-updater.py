@@ -5,7 +5,8 @@ test=out/'test-artifacts'/uuid.uuid4().hex[:8];test.mkdir(parents=True)
 manifest=json.loads((out/'client-manifest.json').read_text());seen=[];checks=[]
 sources={p.name:p for p in (out/'release-assets').iterdir()}
 sources.update({m['file']:root/'unified-mods/client-mods'/m['file'] for m in manifest['mods'] if m['optional']})
-sources.update({m['file']:root/'nuclear-update'/m['file'] for m in manifest['mods'] if m.get('authorDownload')})
+sources.update({m['file']:root/'nuclear-update'/m['file'] for m in manifest['mods'] if m.get('authorDownload') and m['file'].startswith('createnuclear-')})
+sources.update({m['file']:root/'create-restoration'/m['file'] for m in manifest['mods'] if m['file'].startswith('createbetterfps-')})
 class Handler(http.server.BaseHTTPRequestHandler):
  def do_GET(self):
   name=unquote(urlparse(self.path).path.lstrip('/'));seen.append(name)
@@ -29,7 +30,9 @@ def run(p=None,label='run',m=None):
  if m is not None:manifestfile.write_text(json.dumps(m))
  else:manifestfile.write_text(json.dumps(local))
  seen.clear();cmd='cmd.exe /d /c call "'+str(out/'Install-Blacksite.bat')+'"'+(' "'+str(p)+'"' if p else '')
+ temporary_before={x.name for x in pathlib.Path(os.environ['TEMP']).glob('blacksite-scan-*')}
  r=subprocess.run(cmd,env=env,capture_output=True,text=True,encoding='utf-8',errors='replace',timeout=240)
+ assert {x.name for x in pathlib.Path(os.environ['TEMP']).glob('blacksite-scan-*')}<=temporary_before,'Updater left a temporary download folder'
  (test/(label+'.log')).write_text(r.stdout+r.stderr)
  if r.returncode:print(label+': '+r.stdout[-1600:],flush=True)
  return r,list(seen)
@@ -53,11 +56,11 @@ try:
  (p/'config/create-client.toml').write_text('my personal Create rendering config')
  (p/'config/voxy-config.json').write_text(json.dumps({'enabled':True,'enable_rendering':True,'ingest_enabled':False,'section_render_distance':31.0,'customPreference':42}))
  (p/'config/create-server.toml').write_text('maxRotationSpeed = 256\nmyOtherSetting = 17\n')
- (p/'mods/createbetterfps-1.21.1-1.1.5.jar').write_bytes(b'previous crashing optimizer')
+ (p/'mods/createbetterfps-1.21.1-1.1.5.jar').unlink();(p/'mods/createbetterfps-1.21.1-1.1.5.jar').write_bytes(b'previous crashing optimizer')
  (p/'config/entityculling.json').write_text(json.dumps({'customPreference':17,'blockEntityWhitelist':['my:machine'],'entityWhitelist':[],'tickCullingWhitelist':[]}))
  r,requests=run(p,'repair');check(r.returncode==0,'Readable BAT executes in Windows PowerShell')
- check(set(requests)=={'Mekanism-1.21.1-10.7.19.85.jar','ConstructionSticks-1.21.1-1.5.0.jar',corrupted,manifest['configArchive']['file']},'Only missing/corrupt mods and needed config archive downloaded')
- check(all(digest(p/'mods'/m['file'])==m['sha256'] for m in manifest['mods']),'All 286 required and four selected performance mod hashes correct')
+ check(set(requests)=={'Mekanism-1.21.1-10.7.19.85.jar','ConstructionSticks-1.21.1-1.5.0.jar',corrupted,'createbetterfps-1.21.1-1.1.5.jar',manifest['configArchive']['file']},'Only missing/corrupt mods and needed config archive downloaded')
+ check(all(digest(p/'mods'/m['file'])==m['sha256'] for m in manifest['mods']),'All 287 required and four selected performance mod hashes correct')
  check(not (p/'mods/renamed-old-construction.jar').exists(),'Old mod version detected by real mod identity despite renamed JAR')
  check(not (p/'mods/dirt_slabs-1.0.0-neoforge-1.21.1.jar').exists() and not (p/'mods/blacksite-effects-1.3.0.jar').exists(),'Explicitly removed and superseded mods deleted')
  check((p/'mods/create-player-addon-1.0.jar').exists(),'Unrelated Create addon preserved')
@@ -65,7 +68,7 @@ try:
  check((p/'config/create-client.toml').read_text()=='my personal Create rendering config','Personal optional config preserved')
  vc=json.loads((p/'config/voxy-config.json').read_text());check(vc['ingest_enabled'] and vc['section_render_distance']==31.0 and vc['customPreference']==42,'Voxy terrain collection enabled without overwriting personal preferences')
  check('maxRotationSpeed = 512' in (p/'config/create-server.toml').read_text() and 'myOtherSetting = 17' in (p/'config/create-server.toml').read_text(),'Only Create RPM setting changed in existing configuration')
- check(not (p/'mods/createbetterfps-1.21.1-1.1.5.jar').exists(),'Crashing Create Better FPS removed and not reinstalled')
+ check(digest(p/'mods/createbetterfps-1.21.1-1.1.5.jar')==next(m['sha256'] for m in manifest['mods'] if m['file'].startswith('createbetterfps-')),'Create Better FPS restored and verified')
  check('maxUpgradeMultiplier = 16' in (p/'config/Mekanism/general.toml').read_text(),'Recent Mekanism multiplier installed')
  check(len(list((p/'config/ftbquests/quests/chapters').glob('*.snbt')))==66,'Complete recent quest update installed')
  ec=json.loads((p/'config/entityculling.json').read_text());check(ec['customPreference']==17 and 'my:machine' in ec['blockEntityWhitelist'],'Performance compatibility exceptions merged without resetting personal settings')
@@ -73,6 +76,15 @@ try:
  before={f.relative_to(p).as_posix():digest(f) for f in p.rglob('*') if f.is_file()}
  r,requests=run(p,'repeat');check(r.returncode==0 and not requests,'Repeated full scan downloads nothing when current')
  check(before=={f.relative_to(p).as_posix():digest(f) for f in p.rglob('*') if f.is_file()},'Repeated update is idempotent')
+ fps=next(m for m in manifest['mods'] if m['file'].startswith('createbetterfps-'))
+ disabled=p/'mods'/(fps['file']+'.disabled');(p/'mods'/fps['file']).rename(disabled)
+ metadata=json.loads((p/'minecraftinstance.json').read_text());metadata['installedAddons']=[{'installedFile':{'fileName':fps['file']},'isEnabled':False,'personalMetadata':42}];(p/'minecraftinstance.json').write_text(json.dumps(metadata))
+ r,requests=run(p,'enable-disabled');check(r.returncode==0 and not requests,'Disabled correct required mod restored without downloading it again')
+ metadata=json.loads((p/'minecraftinstance.json').read_text());check(metadata['installedAddons'][0]['isEnabled'] and metadata['installedAddons'][0]['personalMetadata']==42 and not disabled.exists(),'CurseForge disabled flag updated while personal metadata is preserved')
+ metadata['baseModLoader']['name']='neoforge-21.1.240';(p/'minecraftinstance.json').write_text(json.dumps(metadata))
+ before={f.relative_to(p).as_posix():digest(f) for f in p.rglob('*') if f.is_file()};r,requests=run(p,'wrong-loader');check(r.returncode!=0 and not requests,'Incorrect CurseForge loader rejected before downloading')
+ check(before=={f.relative_to(p).as_posix():digest(f) for f in p.rglob('*') if f.is_file()},'Rejected loader changes no profile files')
+ metadata['baseModLoader']['name']='neoforge-21.1.250';(p/'minecraftinstance.json').write_text(json.dumps(metadata))
  bad=copy.deepcopy(local);next(m for m in bad['mods'] if m['file']=='ConstructionSticks-1.21.1-1.5.0.jar')['url']=base+'bad/ConstructionSticks.jar'
  (p/'mods/ConstructionSticks-1.21.1-1.5.0.jar').unlink();before={f.relative_to(p).as_posix():digest(f) for f in p.rglob('*') if f.is_file()}
  r,_=run(p,'bad-download',bad);check(r.returncode!=0,'Bad download rejected by SHA256')
@@ -83,8 +95,11 @@ try:
  settings=test/'appdata/CurseForge';settings.mkdir(parents=True);(settings/'storage.json').write_text(json.dumps({'minecraft-settings':json.dumps({'minecraftRoot':str(empty.parent.parent)})}))
  # The repaired fixture moves outside discovery so the empty named profile is unique.
  moved=test/'repaired-profile';shutil.move(str(p),moved)
+ other=profile('All the Mods 10 - ATM10');(other/'mods/blacksite-platform-1.4.1.jar').unlink()
+ other_before={f.relative_to(other).as_posix():digest(f) for f in other.rglob('*') if f.is_file()}
  r,requests=run(None,'fresh-auto');check(r.returncode==0,'Empty named NeoForge profile discovered through custom CurseForge folder')
- check(len([x for x in requests if x.endswith('.jar')])==290,'Fresh profile downloads complete mod list')
+ check(other_before=={f.relative_to(other).as_posix():digest(f) for f in other.rglob('*') if f.is_file()},'Unrelated ATM10 profile was not selected or changed')
+ check(len([x for x in requests if x.endswith('.jar')])==291,'Fresh profile downloads complete mod list')
  check(all(digest(empty/'mods'/m['file'])==m['sha256'] for m in manifest['mods']),'Fresh install verifies every required and optimization mod')
  check(len(list((empty/'config/ftbquests/quests/chapters').glob('*.snbt')))==66 and (empty/'blacksite-guides/Electric-Blaze-Heaters.txt').exists(),'Fresh install receives quest book and Electric Blaze instructions')
  check(not (empty/'.blacksite-backups').exists(),'Fresh install creates no backups')

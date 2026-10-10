@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "minimumInstallerVersion": 2,
-  "version": "client-star-1.3.0",
+  "minimumInstallerVersion": 3,
+  "version": "client-star-1.3.1",
   "minecraft": "1.21.1",
   "neoforge": "21.1.250",
   "activationPending": false,
-  "requiredModCount": 286,
+  "requiredModCount": 287,
   "optionalModCount": 4,
   "mods": [
     {
@@ -1032,10 +1032,10 @@
       ]
     },
     {
-      "file": "blacksite-platform-1.4.0.jar",
-      "size": 77391,
-      "sha256": "67c6b17e815d4ca11d30aa151b45ebc411ff16c9c3ceab76a336bac1071c4dd5",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/blacksite-platform-1.4.0.jar",
+      "file": "blacksite-platform-1.4.1.jar",
+      "size": 78435,
+      "sha256": "8a383e61cde9012fe4b6ffa9919e896d91d05aae340ceedee1264de24f76b3b1",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.3.1/blacksite-platform-1.4.1.jar",
       "optional": false,
       "name": "Blacksite Platform",
       "modIds": [
@@ -3199,6 +3199,18 @@
       ],
       "optional": false,
       "authorDownload": true
+    },
+    {
+      "name": "Create Better FPS",
+      "file": "createbetterfps-1.21.1-1.1.5.jar",
+      "size": 26542,
+      "sha256": "13fff8caa3fd6de652d12f8a989180c502bc11009e2a16bb0f89bb47fa57bac3",
+      "url": "https://edge.forgecdn.net/files/8908/301/createbetterfps-1.21.1-1.1.5.jar",
+      "optional": false,
+      "authorDownload": true,
+      "modIds": [
+        "createbetterfps"
+      ]
     }
   ],
   "files": [
@@ -17591,19 +17603,24 @@
       "size": 552453,
       "sha256": "8b7a55b4303ca5ef47a42948ca27435857a70bb0d4f40d4f81096deb1afe1344",
       "policy": "ifMissing"
+    },
+    {
+      "path": "blacksite-guides/Create-Boiler-Level-20.txt",
+      "size": 435,
+      "sha256": "dfe561c06d4e0a6e9d8fc3682c5f9c5b9e34ab9809a205bf4b2bcf17b94031a0",
+      "policy": "replace"
     }
   ],
   "configArchive": {
     "file": "Blacksite-Client-Files.zip",
-    "size": 13476221,
-    "sha256": "dd4f4a9a78117e0c52718197d1a28b32b7621158f5080348fd844674cb554838",
-    "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.3.0/Blacksite-Client-Files.zip"
+    "size": 13476665,
+    "sha256": "b458e255cc77181224bcfedc06191b484cf69924d57f37a896337c84bdbd6a2e",
+    "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.3.1/Blacksite-Client-Files.zip"
   },
   "removePrefixes": [
     "dirt_slabs-",
     "blacksite-effects-",
-    "blacksite-platform-",
-    "createbetterfps-"
+    "blacksite-platform-"
   ],
   "keepFiles": [
     "blacksite-platform-1.4.0.jar"
@@ -18748,6 +18765,10 @@
     {
       "prefix": "createnuclear-",
       "file": "createnuclear-2.0.0-neoforge.jar"
+    },
+    {
+      "prefix": "createbetterfps-",
+      "file": "createbetterfps-1.21.1-1.1.5.jar"
     }
   ]
 }

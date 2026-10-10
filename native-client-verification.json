@@ -2,7 +2,8 @@
   "error": "",
   "passed": true,
   "checks": [
-    "Create Better FPS absent",
+    "Create Better FPS enabled",
+    "Create Better FPS optimized renderer active",
     "Create Nuclear loaded and multiplayer connection succeeded",
     "Client received Create maximum RPM 512",
     "Voxy local terrain collection enabled",

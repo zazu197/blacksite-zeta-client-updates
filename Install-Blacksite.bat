@@ -5,7 +5,7 @@ rem Close Minecraft, then double-click. You may pass a profile folder as argumen
 rem Set BLACKSITE_OPTIMIZATIONS below to 0 to skip the four optional performance mods.
 set "BLACKSITE_SELF=%~f0"
 set "BLACKSITE_PROFILE=%~1"
-set "BLACKSITE_OPTIMIZATIONS=1"
+if not defined BLACKSITE_OPTIMIZATIONS set "BLACKSITE_OPTIMIZATIONS=1"
 set "BLACKSITE_MANIFEST_URL=https://raw.githubusercontent.com/zazu197/blacksite-zeta-client-updates/main/client-manifest.json"
 powershell.exe -NoProfile -ExecutionPolicy Bypass -Command "$s=[IO.File]::ReadAllText($env:BLACKSITE_SELF); $code=$s.Substring($s.IndexOf(([char]10+'# POWERSHELL START'))+1); & ([scriptblock]::Create($code))"
 set "BLACKSITE_EXIT=%ERRORLEVEL%"
@@ -16,6 +16,7 @@ $ErrorActionPreference = 'Stop'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 $taskTemporaryFiles = [Collections.Generic.List[string]]::new()
+$taskTemp=$null; $taskProfileLock=$null
 function Get-Sha256([string]$Path) {
     $hasher = [Security.Cryptography.SHA256]::Create(); $stream = [IO.File]::OpenRead($Path)
     try { return [BitConverter]::ToString($hasher.ComputeHash($stream)).Replace('-', '').ToLowerInvariant() }
@@ -82,7 +83,9 @@ function Test-BlacksiteProfile([string]$Path,[bool]$Explicit=$false) {
     foreach ($name in @('Mekanism-1.21.1-10.7.19.85.jar','ars_nouveau-1.21.1-5.13.3.jar','create-1.21.1-6.0.10.jar')) {
         if (Test-Path -LiteralPath (Join-Path $mods $name)) { $anchors++ }
     }
-    if ($anchors -ge 2) { return $true }
+    $namedPack=(Split-Path $Path -Leaf) -match 'Blacksite|Magitech|All of Create'
+    $ownAddon=@(Get-ChildItem -LiteralPath $mods -Filter 'blacksite-*.jar' -File -ErrorAction SilentlyContinue | Where-Object { $_.Name -match '^blacksite-(platform|effects)-' }).Count -gt 0
+    if ($anchors -ge 2 -and ($Explicit -or $namedPack -or $ownAddon)) { return $true }
     if ($version -eq '1.21.1' -and $neo -and ($Explicit -or (Split-Path $Path -Leaf) -match 'Blacksite|Magitech|All of Create')) { return $true }
     return $false
 }
@@ -163,13 +166,20 @@ try {
         if ($running.Count) { throw 'Close Minecraft and run this BAT again. CurseForge may remain open.' }
     }
     $taskProfile=Find-BlacksiteProfile; Write-Host "Profile: $taskProfile"
+    $metadataPath=Join-Path $taskProfile 'minecraftinstance.json'
+    if (Test-Path -LiteralPath $metadataPath) {
+        $profileMetadata=[IO.File]::ReadAllText($metadataPath) | ConvertFrom-Json
+        if ($profileMetadata.baseModLoader.name -and $profileMetadata.baseModLoader.name -ne 'neoforge-21.1.250') { throw 'This update needs NeoForge 21.1.250. Change the loader version in CurseForge before running it.' }
+    }
+    try { $taskProfileLock=[IO.FileStream]::new((Join-Path $taskProfile '.blacksite-update.lock'),[IO.FileMode]::OpenOrCreate,[IO.FileAccess]::ReadWrite,[IO.FileShare]::None,1,[IO.FileOptions]::DeleteOnClose) }
+    catch { throw 'Another updater is using this profile. Wait for it to finish and try again.' }
     $taskTemp=Join-Path ([IO.Path]::GetTempPath()) ('blacksite-scan-'+[guid]::NewGuid().ToString('N'))
     New-Item -ItemType Directory -Path $taskTemp | Out-Null
     $manifestPath=Join-Path $taskTemp 'client-manifest.json'; $taskTemporaryFiles.Add($manifestPath)
     if ($env:BLACKSITE_TEST_MODE -eq '1' -and $env:BLACKSITE_TEST_MANIFEST) { Copy-Item -LiteralPath $env:BLACKSITE_TEST_MANIFEST -Destination $manifestPath }
     else { Download-File $env:BLACKSITE_MANIFEST_URL $manifestPath }
     $manifest=[IO.File]::ReadAllText($manifestPath) | ConvertFrom-Json
-    if ($manifest.schemaVersion -ne 1 -or $manifest.minimumInstallerVersion -gt 2 -or $manifest.minecraft -ne '1.21.1' -or $manifest.neoforge -ne '21.1.250') { throw 'Download the latest Install-Blacksite.bat from the client-update repository; this release requires a newer installer or loader.' }
+    if ($manifest.schemaVersion -ne 1 -or $manifest.minimumInstallerVersion -gt 3 -or $manifest.minecraft -ne '1.21.1' -or $manifest.neoforge -ne '21.1.250') { throw 'Download the latest Install-Blacksite.bat from the client-update repository; this release requires a newer installer or loader.' }
     $taskMods=Join-Path $taskProfile 'mods'; $operations=[Collections.Generic.List[object]]::new(); $expectedIds=@{}; $expectedFiles=@{}; $paths=@{}
     $selected=@($manifest.mods | Where-Object { -not $_.optional -or $env:BLACKSITE_OPTIMIZATIONS -ne '0' })
     Write-Host "Checking every required mod ($($selected.Count) files including selected optimizations)..."
@@ -181,6 +191,7 @@ try {
         foreach ($id in $mod.modIds) { if ($expectedIds.ContainsKey($id)) { throw 'Duplicate mod identity in manifest.' }; $expectedIds[$id]=$mod.file }
         Assert-DownloadUrl $mod.url
         if (Test-Bytes $target $mod) { $correct++; continue }
+        if (Test-Bytes ($target+'.disabled') $mod) { $operations.Add(@{Source=($target+'.disabled');Target=$target}); Write-Host "Enable required mod: $($mod.name)"; continue }
         Write-Host "Download/repair: $($mod.name)"
         $download=Get-SafeChild $taskTemp $mod.file; $taskTemporaryFiles.Add($download)
         Download-File $mod.url $download
@@ -253,10 +264,28 @@ try {
     foreach ($op in $operations) { New-Item -ItemType Directory -Path (Split-Path -Parent $op.Target) -Force | Out-Null; Copy-Item -LiteralPath $op.Source -Destination $op.Target -Force }
     foreach ($path in $remove) { [void](Get-SafeChild $taskMods (Split-Path $path -Leaf)); Remove-Item -LiteralPath $path }
     foreach ($mod in $selected) { if (-not (Test-Bytes (Get-SafeChild $taskProfile ('mods/'+$mod.file)) $mod)) { throw "Installed file check failed: $($mod.file). Run the updater again to repair it." } }
+    foreach ($op in $configChanges) { if (-not (Test-Config $op.Target $op.File)) { throw "Installed configuration check failed: $($op.File.path). Run the updater again." } }
+    foreach ($mod in $selected) {
+        $disabled=Get-SafeChild $taskProfile ('mods/'+$mod.file+'.disabled')
+        if (Test-Bytes $disabled $mod) { Remove-Item -LiteralPath $disabled }
+    }
+    if ($profileMetadata) {
+        $metadataChanged=$false
+        foreach ($addon in $profileMetadata.installedAddons) {
+            if ($expectedFiles.ContainsKey([string]$addon.installedFile.fileName) -and $addon.isEnabled -eq $false) { $addon.isEnabled=$true; $metadataChanged=$true }
+        }
+        if ($metadataChanged) { [IO.File]::WriteAllText($metadataPath,($profileMetadata | ConvertTo-Json -Depth 100),[Text.UTF8Encoding]::new($false)) }
+    }
     Write-Host "Client is current: $($manifest.version). No backups created."
     Write-Host 'Saves, screenshots, maps, controls, shader selections and unrelated mods are preserved.'
     if ($manifest.activationPending) { Write-Host 'The matching server update is still staged. Wait for the owner to activate it before joining.' -ForegroundColor Yellow }
     Write-Host 'Electric Blaze superheat: add a second Blaze Capacitor, supply 1,063 FE/t, and remove redstone signals.'
     exit 0
 } catch { Write-Host ('Update stopped: '+$_.Exception.Message) -ForegroundColor Red; Write-Host 'No backups are made. Fix the reported issue and run this BAT again to repair incomplete updates.'; exit 1 }
-finally { foreach ($path in $taskTemporaryFiles) { if (Test-Path -LiteralPath $path -PathType Leaf) { Remove-Item -LiteralPath $path -ErrorAction SilentlyContinue } } }
+finally {
+    if ($taskProfileLock) { $taskProfileLock.Dispose() }
+    if ($taskTemp -and (Test-Path -LiteralPath $taskTemp -PathType Container)) {
+        $resolved=[IO.Path]::GetFullPath($taskTemp); $tempRoot=[IO.Path]::GetFullPath([IO.Path]::GetTempPath()).TrimEnd('\')+'\'
+        if ($resolved.StartsWith($tempRoot,[StringComparison]::OrdinalIgnoreCase) -and (Split-Path $resolved -Leaf) -match '^blacksite-scan-[a-f0-9]{32}$') { Remove-Item -LiteralPath $resolved -Recurse -Force -ErrorAction SilentlyContinue }
+    }
+}

@@ -2,11 +2,12 @@ import hashlib,json,os,pathlib,shutil,subprocess,uuid,urllib.request
 out=pathlib.Path(__file__).resolve().parent;test=out/'test-artifacts'/('public-'+uuid.uuid4().hex[:8]);test.mkdir(parents=True)
 m=json.loads((out/'client-manifest.json').read_text());sources={p.name:p for p in (out/'release-assets').iterdir()};root=out.parent
 sources.update({x['file']:root/'unified-mods/client-mods'/x['file'] for x in m['mods'] if x['optional']})
-sources.update({x['file']:root/'nuclear-update'/x['file'] for x in m['mods'] if x.get('authorDownload')})
+sources.update({x['file']:root/'nuclear-update'/x['file'] for x in m['mods'] if x.get('authorDownload') and x['file'].startswith('createnuclear-')})
+sources.update({x['file']:root/'create-restoration'/x['file'] for x in m['mods'] if x['file'].startswith('createbetterfps-')})
 source=next((out/'test-artifacts').glob('*/repaired-profile'))
 p=test/'Blacksite Public Download';shutil.copytree(source,p,ignore=shutil.ignore_patterns('mods'));(p/'mods').mkdir()
 for mod in m['mods']:os.link(sources[mod['file']],p/'mods'/mod['file'])
-removed=['createnuclear-2.0.0-neoforge.jar','Create Encased-1.21.1-1.9.0-ht3.jar','InfiniteLava NeoForge 1.21.1 1.0.1.jar','Super Factory Manager (SFM)-MC1.21.1-4.34.0.jar',"mielon's-the-sift-1.1.2-mc1.21.1-neo.jar",'ConstructionSticks-1.21.1-1.5.0.jar','blacksite-platform-1.4.0.jar',next(x['file'] for x in m['mods'] if x['file'].startswith('entityculling-'))]
+removed=['createbetterfps-1.21.1-1.1.5.jar','createnuclear-2.0.0-neoforge.jar','Create Encased-1.21.1-1.9.0-ht3.jar','InfiniteLava NeoForge 1.21.1 1.0.1.jar','Super Factory Manager (SFM)-MC1.21.1-4.34.0.jar',"mielon's-the-sift-1.1.2-mc1.21.1-neo.jar",'ConstructionSticks-1.21.1-1.5.0.jar','blacksite-platform-1.4.1.jar',next(x['file'] for x in m['mods'] if x['file'].startswith('entityculling-'))]
 for name in removed:(p/'mods'/name).unlink()
 (p/'config/Mekanism/general.toml').write_text('maxUpgradeMultiplier = 10\n')
 bat=test/'Install-Blacksite.bat'
