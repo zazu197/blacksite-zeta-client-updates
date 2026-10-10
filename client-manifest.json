@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "minimumInstallerVersion": 1,
-  "version": "client-star-1.1.0",
+  "version": "client-star-1.2.0",
   "minecraft": "1.21.1",
   "neoforge": "21.1.250",
   "activationPending": true,
-  "requiredModCount": 286,
+  "requiredModCount": 287,
   "optionalModCount": 4,
   "mods": [
     {
@@ -3195,6 +3195,21 @@
       "modIds": [
         "moreculling"
       ]
+    },
+    {
+      "name": "Create Nuclear",
+      "file": "createnuclear-2.0.0-neoforge.jar",
+      "version": "2.0.0",
+      "projectId": 989797,
+      "fileId": 9056910,
+      "url": "https://edge.forgecdn.net/files/9056/910/createnuclear-2.0.0-neoforge.jar",
+      "size": 8833166,
+      "sha256": "d613a8e575d654fa9fbc14b4f5c0655dd1f89851c5bbdbc0ca95925252d70233",
+      "modIds": [
+        "createnuclear"
+      ],
+      "optional": false,
+      "authorDownload": true
     }
   ],
   "files": [
@@ -17548,13 +17563,37 @@
         ]
       },
       "optional": true
+    },
+    {
+      "path": "config/createnuclear-client.toml",
+      "size": 176,
+      "sha256": "a6db60822c4eb16734811f847f93b99a79e3fe16db71a8c1874746e8682da457",
+      "policy": "ifMissing"
+    },
+    {
+      "path": "config/createnuclear-common.toml",
+      "size": 222,
+      "sha256": "63419ce6dbd93b999823307b534b7f363706bfc049c9b6a9fb6c6434e5e5afae",
+      "policy": "ifMissing"
+    },
+    {
+      "path": "config/createnuclear-server.toml",
+      "size": 5250,
+      "sha256": "241118cca5d7049216074fb45474b7a7f965507d55ee45162605f831c0e9cf89",
+      "policy": "ifMissing"
+    },
+    {
+      "path": "config/paxi/datapacks/blacksite_dimension_ores.zip",
+      "size": 76573,
+      "sha256": "1f9207c9c2d52a8bba00a08b5dc47646f06a280eeb7f27a46f7928e1d9687285",
+      "policy": "ifMissing"
     }
   ],
   "configArchive": {
     "file": "Blacksite-Client-Files.zip",
-    "size": 13441700,
-    "sha256": "e05ee9bc67810a77759b022da7f30bd48a7bc77b9fb58f085ea5c0cd22b4e877",
-    "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Blacksite-Client-Files.zip"
+    "size": 13475801,
+    "sha256": "c6e9a44a189234257382511d2709b8dda5f883c925f472680825c8dc8af6e46b",
+    "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.2.0/Blacksite-Client-Files.zip"
   },
   "removePrefixes": [
     "dirt_slabs-",
@@ -18704,6 +18743,10 @@
     {
       "prefix": "yet_another_config_lib_v3-",
       "file": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar"
+    },
+    {
+      "prefix": "createnuclear-",
+      "file": "createnuclear-2.0.0-neoforge.jar"
     }
   ]
 }

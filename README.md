@@ -9,7 +9,7 @@ The matching server additions remain **staged**. Do not launch the updated profi
 ## What the updater does
 
 - Fetches the current [complete mod manifest](client-manifest.json) on every run.
-- Checks all **286 required mod JARs** by filename, file size and SHA-256. Downloads only missing or incorrect files from this repository's versioned release assets.
+- Checks all **287 required mod JARs** by filename, file size and SHA-256. Downloads only missing or incorrect files from versioned GitHub release assets or the pinned original author download.
 - Installs four tested optional client optimizations directly from their authors: Entity Culling, More Culling, Particle Core and Fzzy Config. Change `BLACKSITE_OPTIMIZATIONS=1` to `0` in the readable BAT to skip these downloads.
 - Replaces known outdated versions by their mod identity and precise filename prefixes. Removes Dirt Slabs and superseded Blacksite Effects/Platform files.
 - Applies required configs, datapacks and quest definitions. Copies other resources/configs only when missing. Merges Entity Culling compatibility exceptions into your existing settings.
@@ -20,7 +20,7 @@ No administrator privileges, GitHub login, CurseForge API key, account access, e
 
 ## Included changes
 
-The manifest includes the full client pack, every pending addition since Blacksite Platform 1.4.0, the Mekanism multiplier of 16, expanded Chemical upgrades, the reusable forcefield/factory GUI, all 22 requested content additions and their dependencies, Construction Sticks and Double Slabs, and 91 new quests across 10 chapters. The Blacksite Star is a nine-component endgame trophy. Existing quest IDs/progress are retained; the former Dirt Slabs task accepts Stone Slabs.
+The manifest includes the full client pack, every pending addition since Blacksite Platform 1.4.0, the Mekanism multiplier of 16, expanded Chemical upgrades, the reusable forcefield/factory GUI, all 23 requested content additions and their dependencies, Construction Sticks and Double Slabs, and 91 new quests across 10 chapters. The Blacksite Star is a nine-component endgame trophy. Existing quest IDs/progress are retained; the former Dirt Slabs task accepts Stone Slabs.
 
 See [MODS.md](MODS.md) for every required and optional mod, exact versions/filenames and download checksums in the manifest. Mod authors retain their licenses and ownership; license files remain inside their JARs. Optional performance mods are downloaded from the authors rather than redistributed here. Double Slabs source: https://github.com/CJMinecraft01/DoubleSlabs.
 
@@ -31,3 +31,7 @@ The installed Create: Electric Blaze 1.0.0 already supports this. Use one Blaze 
 ## Distribution
 
 Large client files live in [GitHub Releases](https://github.com/zazu197/blacksite-zeta-client-updates/releases), while this Git repository contains only readable code, manifests, documentation and verification reports. The private website/server repository stays private. The owner can publish another release and update `client-manifest.json`; players rerun the same BAT to check the complete pack again.
+
+## Create Nuclear 2.0.0
+
+The updater downloads this required mod directly from its original CurseForge file. Its four ore families also generate in newly generated chunks in the mining dimension's Overworld layer (Y 68–244), with native Overworld generation retained. Existing chunks are not regenerated.

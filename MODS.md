@@ -1,6 +1,6 @@
 # Blacksite Zeta client mods
 
-Minecraft 1.21.1 / NeoForge 21.1.250. **286 required pack JARs**, plus 4 optional client optimizations installed by default.
+Minecraft 1.21.1 / NeoForge 21.1.250. **287 required pack JARs**, plus 4 optional client optimizations installed by default.
 
 Every download is pinned by exact filename, size, SHA-256 and mod identity in [client-manifest.json](client-manifest.json).
 
@@ -296,3 +296,4 @@ Every download is pinned by exact filename, size, SHA-256 and mod identity in [c
 | YUNG's API | `YungsApi-1.21.1-NeoForge-5.1.8.jar` | Required |
 | Zero CORE 2 | `ZeroCore2-1.21.1-2.4.21.jar` | Required |
 | Zeta | `Zeta-1.1-40.jar` | Required |
+| Create Nuclear | `createnuclear-2.0.0-neoforge.jar` | Required (author download) |

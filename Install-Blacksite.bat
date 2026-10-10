@@ -35,7 +35,8 @@ function Assert-DownloadUrl([string]$Url) {
     $github = $uri.Host -eq 'github.com' -and $uri.AbsolutePath.StartsWith('/zazu197/blacksite-zeta-client-updates/releases/download/')
     $raw = $uri.Host -eq 'raw.githubusercontent.com' -and $uri.AbsolutePath -eq '/zazu197/blacksite-zeta-client-updates/main/client-manifest.json'
     $author = $uri.Host -eq 'cdn.modrinth.com' -and $uri.AbsolutePath.StartsWith('/data/')
-    if (-not ($github -or $raw -or $author)) { throw 'Unexpected download source.' }
+    $curseforge = $uri.Host -eq 'edge.forgecdn.net' -and $uri.AbsolutePath.StartsWith('/files/')
+    if (-not ($github -or $raw -or $author -or $curseforge)) { throw 'Unexpected download source.' }
 }
 function Download-File([string]$Url,[string]$Path) {
     Assert-DownloadUrl $Url

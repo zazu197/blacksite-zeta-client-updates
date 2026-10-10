@@ -5,6 +5,7 @@ test=out/'test-artifacts'/uuid.uuid4().hex[:8];test.mkdir(parents=True)
 manifest=json.loads((out/'client-manifest.json').read_text());seen=[];checks=[]
 sources={p.name:p for p in (out/'release-assets').iterdir()}
 sources.update({m['file']:root/'unified-mods/client-mods'/m['file'] for m in manifest['mods'] if m['optional']})
+sources.update({m['file']:root/'nuclear-update'/m['file'] for m in manifest['mods'] if m.get('authorDownload')})
 class Handler(http.server.BaseHTTPRequestHandler):
  def do_GET(self):
   name=unquote(urlparse(self.path).path.lstrip('/'));seen.append(name)
@@ -53,7 +54,7 @@ try:
  (p/'config/entityculling.json').write_text(json.dumps({'customPreference':17,'blockEntityWhitelist':['my:machine'],'entityWhitelist':[],'tickCullingWhitelist':[]}))
  r,requests=run(p,'repair');check(r.returncode==0,'Readable BAT executes in Windows PowerShell')
  check(set(requests)=={'Mekanism-1.21.1-10.7.19.85.jar','ConstructionSticks-1.21.1-1.5.0.jar',corrupted,manifest['configArchive']['file']},'Only missing/corrupt mods and needed config archive downloaded')
- check(all(digest(p/'mods'/m['file'])==m['sha256'] for m in manifest['mods']),'All 286 required and four selected performance mod hashes correct')
+ check(all(digest(p/'mods'/m['file'])==m['sha256'] for m in manifest['mods']),'All 287 required and four selected performance mod hashes correct')
  check(not (p/'mods/renamed-old-construction.jar').exists(),'Old mod version detected by real mod identity despite renamed JAR')
  check(not (p/'mods/dirt_slabs-1.0.0-neoforge-1.21.1.jar').exists() and not (p/'mods/blacksite-effects-1.3.0.jar').exists(),'Explicitly removed and superseded mods deleted')
  check((p/'mods/create-player-addon-1.0.jar').exists(),'Unrelated Create addon preserved')
@@ -77,10 +78,10 @@ try:
  # The repaired fixture moves outside discovery so the empty named profile is unique.
  moved=test/'repaired-profile';shutil.move(str(p),moved)
  r,requests=run(None,'fresh-auto');check(r.returncode==0,'Empty named NeoForge profile discovered through custom CurseForge folder')
- check(len([x for x in requests if x.endswith('.jar')])==290,'Fresh profile downloads complete mod list')
+ check(len([x for x in requests if x.endswith('.jar')])==291,'Fresh profile downloads complete mod list')
  check(all(digest(empty/'mods'/m['file'])==m['sha256'] for m in manifest['mods']),'Fresh install verifies every required and optimization mod')
  check(len(list((empty/'config/ftbquests/quests/chapters').glob('*.snbt')))==66 and (empty/'blacksite-guides/Electric-Blaze-Heaters.txt').exists(),'Fresh install receives quest book and Electric Blaze instructions')
  check(not (empty/'.blacksite-backups').exists(),'Fresh install creates no backups')
- report={'passed':True,'checks':checks,'testDirectory':str(test),'downloadsUseRealHTTP':True,'powershell':'Windows PowerShell 5.1','modFilesVerified':290,'liveServerWrites':0}
+ report={'passed':True,'checks':checks,'testDirectory':str(test),'downloadsUseRealHTTP':True,'powershell':'Windows PowerShell 5.1','modFilesVerified':291,'liveServerWrites':0}
  (out/'installer-verification.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'passed':True,'checks':len(checks),'testDirectory':str(test)}),flush=True)
 finally:server.shutdown()

@@ -1,3 +1,4 @@
+raise SystemExit('Immutable 1.1.0 baseline: use nuclear-update/update-client.py or a new versioned builder.')
 import hashlib,io,json,pathlib,re,sys,tomllib,zipfile
 from urllib.parse import quote
 out=pathlib.Path(__file__).resolve().parent

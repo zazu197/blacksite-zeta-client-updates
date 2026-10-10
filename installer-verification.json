@@ -3,7 +3,7 @@
   "checks": [
     "Readable BAT executes in Windows PowerShell",
     "Only missing/corrupt mods and needed config archive downloaded",
-    "All 286 required and four selected performance mod hashes correct",
+    "All 287 required and four selected performance mod hashes correct",
     "Old mod version detected by real mod identity despite renamed JAR",
     "Explicitly removed and superseded mods deleted",
     "Unrelated Create addon preserved",
@@ -26,6 +26,6 @@
   ],
   "downloadsUseRealHTTP": true,
   "powershell": "Windows PowerShell 5.1",
-  "modFilesVerified": 290,
+  "modFilesVerified": 291,
   "liveServerWrites": 0
 }
