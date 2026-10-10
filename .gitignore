@@ -1,0 +1,5 @@
+/release-assets/
+/test-artifacts/
+/__pycache__/
+/upload.log
+/build-local-report.json
