@@ -12,7 +12,7 @@
       "file": "Aoc_Core_1.21_v2.jar",
       "size": 353781,
       "sha256": "1a532a1441aa678ae3f46d7c9ba00ec77692c95d7d6291b9568727e1be7abd7a",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Aoc_Core_1.21_v2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Aoc_Core_1.21_v2.jar",
       "optional": false,
       "name": "All of Create Core",
       "modIds": [
@@ -23,7 +23,7 @@
       "file": "Apotheosis-1.21.1-8.9.0.jar",
       "size": 7184314,
       "sha256": "23a8b4a21d0d8744f097c77c8a96fcba14c4b95f3b1bb542412f40dab272872e",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Apotheosis-1.21.1-8.9.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Apotheosis-1.21.1-8.9.0.jar",
       "optional": false,
       "name": "Apotheosis",
       "modIds": [
@@ -34,7 +34,7 @@
       "file": "ApothicAttributes-1.21.1-2.11.0.jar",
       "size": 319609,
       "sha256": "17c42bb6dd5c0d820fe090e1bb5959578cd5ab7b70caf98a2a59b319fcc7e1ba",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ApothicAttributes-1.21.1-2.11.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ApothicAttributes-1.21.1-2.11.0.jar",
       "optional": false,
       "name": "Apothic Attributes",
       "modIds": [
@@ -45,7 +45,7 @@
       "file": "ApothicEnchanting-1.21.1-1.6.4.jar",
       "size": 5422885,
       "sha256": "aff9837f45c1c981d47a9e60b780c37a151ef881937faf5f72092895104c8bbb",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ApothicEnchanting-1.21.1-1.6.4.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ApothicEnchanting-1.21.1-1.6.4.jar",
       "optional": false,
       "name": "Apothic Enchanting",
       "modIds": [
@@ -56,7 +56,7 @@
       "file": "ApothicSpawners-1.21.1-1.4.0.jar",
       "size": 129784,
       "sha256": "f0cbc52ad606997789c36fac94ae651ab7e2e21c841e26a952c64041cad9cdbe",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ApothicSpawners-1.21.1-1.4.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ApothicSpawners-1.21.1-1.4.0.jar",
       "optional": false,
       "name": "Apothic Spawners",
       "modIds": [
@@ -67,7 +67,7 @@
       "file": "Applied-Mekanistics-1.6.3.jar",
       "size": 149709,
       "sha256": "8946fea39451dbce8e709dedbef40a52ba337bdf7a25ac0c4b503800b1bf0773",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Applied-Mekanistics-1.6.3.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Applied-Mekanistics-1.6.3.jar",
       "optional": false,
       "name": "Applied Mekanistics",
       "modIds": [
@@ -78,7 +78,7 @@
       "file": "BHMenu-NeoForge-1.21-2.4.4.jar",
       "size": 163914,
       "sha256": "96be3f854d120b5c7d1046509b1a904092a687416848e7e5b713e59e1368efa1",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/BHMenu-NeoForge-1.21-2.4.4.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/BHMenu-NeoForge-1.21-2.4.4.jar",
       "optional": false,
       "name": "BHMenu",
       "modIds": [
@@ -89,7 +89,7 @@
       "file": "BetterEnd-21.0.35.jar",
       "size": 97629036,
       "sha256": "6bf99e9149d2c0159a0cca348477654b56409a5e9806fe5d5535f37cd8275051",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/BetterEnd-21.0.35.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/BetterEnd-21.0.35.jar",
       "optional": false,
       "name": "Better End",
       "modIds": [
@@ -100,7 +100,7 @@
       "file": "BetterNether-21.0.27.jar",
       "size": 26614409,
       "sha256": "daf9ee21ff1bcd6e3c5611e4779a372fb9f528f7207ec5f9970a9d74295bfa46",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/BetterNether-21.0.27.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/BetterNether-21.0.27.jar",
       "optional": false,
       "name": "Better Nether",
       "modIds": [
@@ -111,7 +111,7 @@
       "file": "Clumps-neoforge-1.21.1-19.0.0.1.jar",
       "size": 18382,
       "sha256": "b524ccdace2ef8fd19f5b2074f7de1103ac5065c52553f064c00e098346c293e",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Clumps-neoforge-1.21.1-19.0.0.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Clumps-neoforge-1.21.1-19.0.0.1.jar",
       "optional": false,
       "name": "Clumps",
       "modIds": [
@@ -122,7 +122,7 @@
       "file": "ConfiguredDefaults-v21.1.3-1.21.1-NeoForge.jar",
       "size": 43521,
       "sha256": "48b97dada951826b4abf9b2dcab79c0e701bb2980c5bca4977bac7ca0c264ea7",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ConfiguredDefaults-v21.1.3-1.21.1-NeoForge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ConfiguredDefaults-v21.1.3-1.21.1-NeoForge.jar",
       "optional": false,
       "name": "Configured Defaults",
       "modIds": [
@@ -133,7 +133,7 @@
       "file": "ConstructionSticks-1.21.1-1.5.0.jar",
       "size": 264739,
       "sha256": "b226f8b4c31d65f1aba7af22a6f840abda7ef1d3ba38706fb793606c6d00ee19",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ConstructionSticks-1.21.1-1.5.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ConstructionSticks-1.21.1-1.5.0.jar",
       "optional": false,
       "name": "Construction Sticks",
       "modIds": [
@@ -144,7 +144,7 @@
       "file": "Controlling-neoforge-1.21.1-19.0.5.jar",
       "size": 77555,
       "sha256": "cc525fb6b030d9e4d33176983f278919e17b33935e2ca568929bdfa98f2b44a0",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Controlling-neoforge-1.21.1-19.0.5.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Controlling-neoforge-1.21.1-19.0.5.jar",
       "optional": false,
       "name": "Controlling",
       "modIds": [
@@ -155,7 +155,7 @@
       "file": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.12.jar",
       "size": 3481341,
       "sha256": "42f582333ffe61366e68a9320d3c205153f2fdc5b53ad715b01543f85828e6b0",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/CrashAssistant-neoforge-1.20.6-1.21.4-1.11.12.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/CrashAssistant-neoforge-1.20.6-1.21.4-1.11.12.jar",
       "optional": false,
       "name": "Crash Assistant",
       "modIds": [
@@ -166,7 +166,7 @@
       "file": "CraterLib-Neoforge-1.21-3.1.2.jar",
       "size": 1483241,
       "sha256": "2625398ddeb3ad6d9b16fd85f0f72f6a3bc4e58755966ff0085b8947c9bc6ad0",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/CraterLib-Neoforge-1.21-3.1.2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/CraterLib-Neoforge-1.21-3.1.2.jar",
       "optional": false,
       "name": "CraterLib",
       "modIds": [
@@ -177,7 +177,7 @@
       "file": "Create Encased-1.21.1-1.9.0-ht3.jar",
       "size": 3110804,
       "sha256": "e93bb110241ab8283c6238590eb04f1fb37199815623f53f3e981ee650f344a3",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Create.Encased-1.21.1-1.9.0-ht3.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Create.Encased-1.21.1-1.9.0-ht3.jar",
       "optional": false,
       "name": "Create Encased",
       "modIds": [
@@ -188,7 +188,7 @@
       "file": "CreateDragonsPlus-1.11.8b.jar",
       "size": 1048120,
       "sha256": "f2b5c106241d5d9b0b33ab41ff1f6d145b92038e7ffde3d9b07b37639f065445",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/CreateDragonsPlus-1.11.8b.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/CreateDragonsPlus-1.11.8b.jar",
       "optional": false,
       "name": "Create: Dragons Plus",
       "modIds": [
@@ -199,7 +199,7 @@
       "file": "CreateFastSchematicCannon-1.4.1-neoforge-1.21.1.jar",
       "size": 74294,
       "sha256": "5dbc33a64c01e8fef09585fae9d09c9ae04b800e3c4315ace85901a68eb5fae3",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/CreateFastSchematicCannon-1.4.1-neoforge-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/CreateFastSchematicCannon-1.4.1-neoforge-1.21.1.jar",
       "optional": false,
       "name": "Create: Fast Schematic Cannon",
       "modIds": [
@@ -210,7 +210,7 @@
       "file": "CutThrough-v21.1.0-1.21.1-NeoForge.jar",
       "size": 51371,
       "sha256": "9b01eb578d8ba1e6fd463e7cc5fad33c484e5cef1ffd9ed77ef9c02424c40801",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/CutThrough-v21.1.0-1.21.1-NeoForge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/CutThrough-v21.1.0-1.21.1-NeoForge.jar",
       "optional": false,
       "name": "Cut Through",
       "modIds": [
@@ -221,7 +221,7 @@
       "file": "Design-n-Decor-1.21.1-2.2b.jar",
       "size": 6329899,
       "sha256": "af0264e8ba44b77744d9a6173b79fcc39758c5b975fbb377d4000e85bfcd2c8f",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Design-n-Decor-1.21.1-2.2b.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Design-n-Decor-1.21.1-2.2b.jar",
       "optional": false,
       "name": "Design n' Decor",
       "modIds": [
@@ -232,7 +232,7 @@
       "file": "DnDesires-1.21.1-2.3a-BETA.jar",
       "size": 1249099,
       "sha256": "d3f7f2384e8327c81671f2d48df15a0bba98ef04b727a430079cfc9145a7a379",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/DnDesires-1.21.1-2.3a-BETA.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/DnDesires-1.21.1-2.3a-BETA.jar",
       "optional": false,
       "name": "Create: Dreams n' Desires",
       "modIds": [
@@ -243,7 +243,7 @@
       "file": "EasyAnvils-v21.1.0-1.21.1-NeoForge.jar",
       "size": 152297,
       "sha256": "dcd0e562710a639b4fdd60a7500dc9404c6fbd1007215a088248ce1c57ccc6dc",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/EasyAnvils-v21.1.0-1.21.1-NeoForge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/EasyAnvils-v21.1.0-1.21.1-NeoForge.jar",
       "optional": false,
       "name": "Easy Anvils",
       "modIds": [
@@ -254,7 +254,7 @@
       "file": "EasyMagic-v21.1.4-1.21.1-NeoForge.jar",
       "size": 143992,
       "sha256": "e641a83dcd0dd1a66c545069a706349df94f5b64dc5a252944596439009a699f",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/EasyMagic-v21.1.4-1.21.1-NeoForge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/EasyMagic-v21.1.4-1.21.1-NeoForge.jar",
       "optional": false,
       "name": "Easy Magic",
       "modIds": [
@@ -265,7 +265,7 @@
       "file": "EpheroLib-1.21.1-NEO-FORGE-1.2.0.jar",
       "size": 746263,
       "sha256": "875647ca276c2cfc9418ee2d62398c61380eac8d79ab0e555aefa09ac3b07d18",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/EpheroLib-1.21.1-NEO-FORGE-1.2.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/EpheroLib-1.21.1-NEO-FORGE-1.2.0.jar",
       "optional": false,
       "name": "EpheroLib",
       "modIds": [
@@ -276,7 +276,7 @@
       "file": "EuphoriaPatcher-1.10.0-r5.9-neoforge.jar",
       "size": 4456000,
       "sha256": "88db61601e6b860e492421784a33ab6f78c04015195643bff02e9e20ce128e32",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/EuphoriaPatcher-1.10.0-r5.9-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/EuphoriaPatcher-1.10.0-r5.9-neoforge.jar",
       "optional": false,
       "name": "Euphoria Patcher",
       "modIds": [
@@ -287,7 +287,7 @@
       "file": "ExtendedAE-1.21-2.2.35-neoforge.jar",
       "size": 5578031,
       "sha256": "14a2860fa2c747e9dda2279b8933fac6311fecfee166c765171022b902591c65",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ExtendedAE-1.21-2.2.35-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ExtendedAE-1.21-2.2.35-neoforge.jar",
       "optional": false,
       "name": "ExtendedAE",
       "modIds": [
@@ -298,7 +298,7 @@
       "file": "ExtremeReactors2-1.21.1-2.4.28.jar",
       "size": 2554779,
       "sha256": "74fdfdfc91c3c8e5a439d411e6f081d12193635fffe2c55142f2f28f75b9d621",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ExtremeReactors2-1.21.1-2.4.28.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ExtremeReactors2-1.21.1-2.4.28.jar",
       "optional": false,
       "name": "Extreme Reactors",
       "modIds": [
@@ -309,7 +309,7 @@
       "file": "FarmersDelight-1.21.1-1.3.4.jar",
       "size": 3160490,
       "sha256": "139ad7696462c89c03eea463f805abffa552526c5dadaadae221dd9624cb197c",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/FarmersDelight-1.21.1-1.3.4.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/FarmersDelight-1.21.1-1.3.4.jar",
       "optional": false,
       "name": "Farmer's Delight",
       "modIds": [
@@ -320,7 +320,7 @@
       "file": "FluxNetworks-1.21.1-8.0.0.jar",
       "size": 535938,
       "sha256": "29e511b2d76f85bd247aa213a92bb059ecc037fcc3fed82baffcff97b638d3a6",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/FluxNetworks-1.21.1-8.0.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/FluxNetworks-1.21.1-8.0.0.jar",
       "optional": false,
       "name": "Flux Networks",
       "modIds": [
@@ -331,7 +331,7 @@
       "file": "Glodium-1.21-2.2-neoforge.jar",
       "size": 61377,
       "sha256": "369e99753df0bdc90a38a8c52df4abb37baf6b18c6ca130af4c7bc75fb160a85",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Glodium-1.21-2.2-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Glodium-1.21-2.2-neoforge.jar",
       "optional": false,
       "name": "Glodium",
       "modIds": [
@@ -342,7 +342,7 @@
       "file": "GnKinetics-1.21.1-1.0m.jar",
       "size": 560814,
       "sha256": "9f5e699b59282464aad038b88f89634b080fbee23a1e5dab5b7d954b4f10893b",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/GnKinetics-1.21.1-1.0m.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/GnKinetics-1.21.1-1.0m.jar",
       "optional": false,
       "name": "Gears n' Kinetics",
       "modIds": [
@@ -353,7 +353,7 @@
       "file": "Highlighter-1.21-neoforge-1.1.11.jar",
       "size": 30417,
       "sha256": "cc9480a383a8f9bcf2c6c3bfc913aa7e3b1b9ad1062c5180c4d0d281000c9f8b",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Highlighter-1.21-neoforge-1.1.11.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Highlighter-1.21-neoforge-1.1.11.jar",
       "optional": false,
       "name": "Highlighter",
       "modIds": [
@@ -364,7 +364,7 @@
       "file": "HostileNeuralNetworks-1.21.1-6.5.1.jar",
       "size": 490546,
       "sha256": "dd56c109a76cdd2c2bf73a1e62aed7218d087fa1401a539b0d5576386f9ff545",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/HostileNeuralNetworks-1.21.1-6.5.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/HostileNeuralNetworks-1.21.1-6.5.1.jar",
       "optional": false,
       "name": "Hostile Neural Networks",
       "modIds": [
@@ -375,7 +375,7 @@
       "file": "Iceberg-1.21.1-neoforge-1.3.2.jar",
       "size": 213853,
       "sha256": "0d620c975619b04110b94a73d5b42d252563ff59c1eae9d21ab2ee7e38460a3c",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Iceberg-1.21.1-neoforge-1.3.2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Iceberg-1.21.1-neoforge-1.3.2.jar",
       "optional": false,
       "name": "Iceberg",
       "modIds": [
@@ -386,7 +386,7 @@
       "file": "ImmediatelyFast-NeoForge-1.6.13+1.21.1.jar",
       "size": 362740,
       "sha256": "fa3aec87e9880d0a8ab9663c96ad0206fd59de5e71acfccbebc264f7ad0ae153",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ImmediatelyFast-NeoForge-1.6.13%2B1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ImmediatelyFast-NeoForge-1.6.13%2B1.21.1.jar",
       "optional": false,
       "name": "ImmediatelyFast",
       "modIds": [
@@ -397,7 +397,7 @@
       "file": "InfiniteLava NeoForge 1.21.1 1.0.1.jar",
       "size": 4830,
       "sha256": "e1f126c6201a423e5c14e4631b43ea6c05476d19695372365e02d34cade80b1d",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/InfiniteLava.NeoForge.1.21.1.1.0.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/InfiniteLava.NeoForge.1.21.1.1.0.1.jar",
       "optional": false,
       "name": "Infinite Lava",
       "modIds": [
@@ -408,7 +408,7 @@
       "file": "IrisSearch-1.7.1-neoforge.jar",
       "size": 208181,
       "sha256": "6024b5b1737971d26cc34e1e0e02acd6ecf6f194248d3425ec9ae2dd2bb57e34",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/IrisSearch-1.7.1-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/IrisSearch-1.7.1-neoforge.jar",
       "optional": false,
       "name": "IrisSearch",
       "modIds": [
@@ -419,7 +419,7 @@
       "file": "Jade-1.21.1-NeoForge-15.10.6.jar",
       "size": 726853,
       "sha256": "276f1f65a20d04f536989c4f311949d770b52c440c23c2b904a08860f3c93810",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Jade-1.21.1-NeoForge-15.10.6.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Jade-1.21.1-NeoForge-15.10.6.jar",
       "optional": false,
       "name": "Jade",
       "modIds": [
@@ -430,7 +430,7 @@
       "file": "JadeAddons-1.21.1-NeoForge-6.1.1.jar",
       "size": 75431,
       "sha256": "ebf500331c07a4c67147f61ad8a5e3b186afa49f70028904a639229fdf40f372",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/JadeAddons-1.21.1-NeoForge-6.1.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/JadeAddons-1.21.1-NeoForge-6.1.1.jar",
       "optional": false,
       "name": "Jade Addons",
       "modIds": [
@@ -441,7 +441,7 @@
       "file": "JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar",
       "size": 24879,
       "sha256": "b34d6bb434d507874a6ebe49d40169c26f7cad8f51c9ffea615eedb153746696",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar",
       "optional": false,
       "name": "Just Enough Professions (JEP)",
       "modIds": [
@@ -452,7 +452,7 @@
       "file": "JustEnoughResources-NeoForge-1.21.1-1.6.0.17.jar",
       "size": 292088,
       "sha256": "7a47d69b5530704690d5a5f0726cd74a2d6c57df17dd4a8589c4ab5212f91460",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/JustEnoughResources-NeoForge-1.21.1-1.6.0.17.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/JustEnoughResources-NeoForge-1.21.1-1.6.0.17.jar",
       "optional": false,
       "name": "Just Enough Resources",
       "modIds": [
@@ -463,7 +463,7 @@
       "file": "LeavesBeGone-v21.1.1-1.21.1-NeoForge.jar",
       "size": 55937,
       "sha256": "ea85ad07672f7c2199c28fe58a80c354ef2f2c60bfb0315e3730c344068526e0",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/LeavesBeGone-v21.1.1-1.21.1-NeoForge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/LeavesBeGone-v21.1.1-1.21.1-NeoForge.jar",
       "optional": false,
       "name": "Leaves Be Gone",
       "modIds": [
@@ -474,7 +474,7 @@
       "file": "Mekanism-1.21.1-10.7.19.85.jar",
       "size": 11976009,
       "sha256": "004dbc9f3106f4d192aeaa1ee1190dd16ec9ca8059ed3d093b80034f4c574f43",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Mekanism-1.21.1-10.7.19.85.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Mekanism-1.21.1-10.7.19.85.jar",
       "optional": false,
       "name": "Mekanism",
       "modIds": [
@@ -485,7 +485,7 @@
       "file": "MekanismGenerators-1.21.1-10.7.19.85.jar",
       "size": 1114598,
       "sha256": "0e5783b111e756f27b48c62b2f0e02fff750c77f7985ff809bfadc5f444ba4ac",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/MekanismGenerators-1.21.1-10.7.19.85.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/MekanismGenerators-1.21.1-10.7.19.85.jar",
       "optional": false,
       "name": "Mekanism: Generators",
       "modIds": [
@@ -496,7 +496,7 @@
       "file": "MekanismTools-1.21.1-10.7.19.85.jar",
       "size": 526620,
       "sha256": "e1dbca7d70df150101da535f6ab4b165a2e402fde830d34df75b58d9aad24dd8",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/MekanismTools-1.21.1-10.7.19.85.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/MekanismTools-1.21.1-10.7.19.85.jar",
       "optional": false,
       "name": "Mekanism: Tools",
       "modIds": [
@@ -507,7 +507,7 @@
       "file": "MoreMekanismProcessing-1.21.1-6.4.jar",
       "size": 619913,
       "sha256": "880aaa75a681e235b2efed2934b1ee0c185201f75dfd35ca18cb6cf8d8654f18",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/MoreMekanismProcessing-1.21.1-6.4.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/MoreMekanismProcessing-1.21.1-6.4.jar",
       "optional": false,
       "name": "More Mekanism Processing",
       "modIds": [
@@ -518,7 +518,7 @@
       "file": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
       "size": 73938,
       "sha256": "68e6f4201c5de97b77929a7215c9552495696ca6a3bf3ae4eacc34e135f6cc8b",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
       "optional": false,
       "name": "Mouse Tweaks",
       "modIds": [
@@ -529,7 +529,7 @@
       "file": "NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
       "size": 306668,
       "sha256": "866ac9a47afcd829bdb03890b5d8f80bb4c6f47332c64717b6e909bee51337b6",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
       "optional": false,
       "name": "No Chat Reports",
       "modIds": [
@@ -540,7 +540,7 @@
       "file": "OctoLib-NEOFORGE-0.6.2+1.21.jar",
       "size": 544378,
       "sha256": "92ba07d9d9e55a65421f3c3f203c72fe5149cb024d5277267e81d812e11a7f38",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/OctoLib-NEOFORGE-0.6.2%2B1.21.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/OctoLib-NEOFORGE-0.6.2%2B1.21.jar",
       "optional": false,
       "name": "OctoLib",
       "modIds": [
@@ -551,7 +551,7 @@
       "file": "Patchouli-1.21.1-93-NEOFORGE.jar",
       "size": 646777,
       "sha256": "959af52ed6640c316c3a8469203420be4aeea11ad6603890ba83bf48f5d9f993",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Patchouli-1.21.1-93-NEOFORGE.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Patchouli-1.21.1-93-NEOFORGE.jar",
       "optional": false,
       "name": "Patchouli",
       "modIds": [
@@ -562,7 +562,7 @@
       "file": "Paxi-1.21.1-NeoForge-5.1.3.jar",
       "size": 102980,
       "sha256": "4b60f8eb3b8b8880eff7c3ac825cde84394848eac3915ed61ade607cdd331ce7",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Paxi-1.21.1-NeoForge-5.1.3.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Paxi-1.21.1-NeoForge-5.1.3.jar",
       "optional": false,
       "name": "Paxi",
       "modIds": [
@@ -573,7 +573,7 @@
       "file": "PickUpNotifier-v21.1.1-1.21.1-NeoForge.jar",
       "size": 97094,
       "sha256": "b49535698de9c7b5a879c8ec99175771d87d5261d5cc4c6152ba1fa51fc5676a",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/PickUpNotifier-v21.1.1-1.21.1-NeoForge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/PickUpNotifier-v21.1.1-1.21.1-NeoForge.jar",
       "optional": false,
       "name": "Pick Up Notifier",
       "modIds": [
@@ -584,7 +584,7 @@
       "file": "Placebo-1.21.1-9.9.2.jar",
       "size": 324058,
       "sha256": "1a844a5b081813b1edb82656329e54d38389ed470f6a6516a5887f5303d7daad",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Placebo-1.21.1-9.9.2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Placebo-1.21.1-9.9.2.jar",
       "optional": false,
       "name": "Placebo",
       "modIds": [
@@ -595,7 +595,7 @@
       "file": "Powah-6.2.10.jar",
       "size": 2737991,
       "sha256": "0e604a7356111c1dd44a00ea42fc1aa960d9faeb978261349df1138fcee4d0b4",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Powah-6.2.10.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Powah-6.2.10.jar",
       "optional": false,
       "name": "Powah",
       "modIds": [
@@ -606,7 +606,7 @@
       "file": "PuzzlesLib-v21.1.60-mc1.21.1-NeoForge.jar",
       "size": 1442182,
       "sha256": "179bcaafb812618834ba82e7f29b15eaee8894f74fb96152a51cfc22ad4f45c4",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/PuzzlesLib-v21.1.60-mc1.21.1-NeoForge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/PuzzlesLib-v21.1.60-mc1.21.1-NeoForge.jar",
       "optional": false,
       "name": "Puzzles Lib",
       "modIds": [
@@ -617,7 +617,7 @@
       "file": "Quark-4.1-482.jar",
       "size": 15576704,
       "sha256": "0f69ce0d31caa4f31e1fa4959541120121e27c652cd2d954839af6b5162f0c70",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Quark-4.1-482.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Quark-4.1-482.jar",
       "optional": false,
       "name": "Quark",
       "modIds": [
@@ -628,7 +628,7 @@
       "file": "ResourcePackOverrides-v21.1.0-1.21.1-NeoForge.jar",
       "size": 83035,
       "sha256": "5aab7282d287a7de64d6be4e20f4c3b9c577add436ac89fd643b6ce9b4445738",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ResourcePackOverrides-v21.1.0-1.21.1-NeoForge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ResourcePackOverrides-v21.1.0-1.21.1-NeoForge.jar",
       "optional": false,
       "name": "Resource Pack Overrides",
       "modIds": [
@@ -639,7 +639,7 @@
       "file": "Searchables-neoforge-1.21.1-1.0.2.jar",
       "size": 77326,
       "sha256": "ca193f0c69033d8f709f9e073a7c1ef4ea46714e5c2f94eb23ace12781c6aa68",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Searchables-neoforge-1.21.1-1.0.2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Searchables-neoforge-1.21.1-1.0.2.jar",
       "optional": false,
       "name": "Searchables",
       "modIds": [
@@ -650,7 +650,7 @@
       "file": "SimpleRPC-4.1.4.jar",
       "size": 716599,
       "sha256": "0ea2d26bb7037edeb6199af562c185bd27211ffbea5ee16b5200b50c4d361cf1",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/SimpleRPC-4.1.4.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/SimpleRPC-4.1.4.jar",
       "optional": false,
       "name": "Simple RPC",
       "modIds": [
@@ -661,7 +661,7 @@
       "file": "Super Factory Manager (SFM)-MC1.21.1-4.34.0.jar",
       "size": 1597623,
       "sha256": "4b589e0b310133998f26f0c12c3ee8d367360be1771e0e96c951322cea6c7ad0",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Super.Factory.Manager.SFM.-MC1.21.1-4.34.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Super.Factory.Manager.SFM.-MC1.21.1-4.34.0.jar",
       "optional": false,
       "name": "Super Factory Manager (SFM)",
       "modIds": [
@@ -672,7 +672,7 @@
       "file": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
       "size": 120364,
       "sha256": "edb34c388fe17ea88d0a7fd11174bbf8ae8f28a4c8ce886f1bf9a5cf0ebc36b8",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
       "optional": false,
       "name": "TerraBlender",
       "modIds": [
@@ -683,7 +683,7 @@
       "file": "ToastControl-1.21.1-9.0.1.jar",
       "size": 21079,
       "sha256": "f80bc1be4375faaac73971e6d51cc1500935f7144fa33108ee4f2fdbd8f70f66",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ToastControl-1.21.1-9.0.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ToastControl-1.21.1-9.0.1.jar",
       "optional": false,
       "name": "Toast Control",
       "modIds": [
@@ -694,7 +694,7 @@
       "file": "TradingPost-v21.1.1-1.21.1-NeoForge.jar",
       "size": 121731,
       "sha256": "655e6d187ac592caeac02e37a0325d5d5cfeee48a043c4e4a9d0e02366afc1b6",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/TradingPost-v21.1.1-1.21.1-NeoForge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/TradingPost-v21.1.1-1.21.1-NeoForge.jar",
       "optional": false,
       "name": "Trading Post",
       "modIds": [
@@ -705,7 +705,7 @@
       "file": "VisualWorkbench-v21.1.2-1.21.1-NeoForge.jar",
       "size": 76670,
       "sha256": "f9bea7865d57c0f32075fc1e8b760d048cf77513c8d93fa41c181ad190eb4449",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/VisualWorkbench-v21.1.2-1.21.1-NeoForge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/VisualWorkbench-v21.1.2-1.21.1-NeoForge.jar",
       "optional": false,
       "name": "Visual Workbench",
       "modIds": [
@@ -716,7 +716,7 @@
       "file": "YungsApi-1.21.1-NeoForge-5.1.8.jar",
       "size": 389834,
       "sha256": "bacd2385965bcfa4adcc0841656110b8e21ee024407a5ee706d30929f7c240cc",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/YungsApi-1.21.1-NeoForge-5.1.8.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/YungsApi-1.21.1-NeoForge-5.1.8.jar",
       "optional": false,
       "name": "YUNG's API",
       "modIds": [
@@ -727,7 +727,7 @@
       "file": "ZeroCore2-1.21.1-2.4.21.jar",
       "size": 1551013,
       "sha256": "54ac755031b05c3a5b6ddfa22dabc45fb3775481041503dcecd75e5e86627779",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ZeroCore2-1.21.1-2.4.21.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ZeroCore2-1.21.1-2.4.21.jar",
       "optional": false,
       "name": "Zero CORE 2",
       "modIds": [
@@ -738,7 +738,7 @@
       "file": "Zeta-1.1-40.jar",
       "size": 763725,
       "sha256": "4f17d1a2b9fd6d18ddb7697aa451db7fb154053b8648f79de279ae0d7e68a2fa",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Zeta-1.1-40.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Zeta-1.1-40.jar",
       "optional": false,
       "name": "Zeta",
       "modIds": [
@@ -749,7 +749,7 @@
       "file": "actuallyadditions-1.3.26+mc1.21.1.jar",
       "size": 3217309,
       "sha256": "072451bb6069025e255a39216edc0f892cda00c12b9905b552e7dd4631d44a41",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/actuallyadditions-1.3.26%2Bmc1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/actuallyadditions-1.3.26%2Bmc1.21.1.jar",
       "optional": false,
       "name": "Actually Additions",
       "modIds": [
@@ -760,7 +760,7 @@
       "file": "addictives-3.2.2.jar",
       "size": 3887113,
       "sha256": "277a56f057ec5ed254bcb287c16fc34b06f65e62105baa349501087018dc77a2",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/addictives-3.2.2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/addictives-3.2.2.jar",
       "optional": false,
       "name": "Create: Addictives",
       "modIds": [
@@ -771,7 +771,7 @@
       "file": "allthearcanistgear-1.21.1-21.3.2.jar",
       "size": 375904,
       "sha256": "4f04704305fcfd8f5c6d92b6ed1f5912a078c77a9442c3c0e224a24b352ddf3b",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/allthearcanistgear-1.21.1-21.3.2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/allthearcanistgear-1.21.1-21.3.2.jar",
       "optional": false,
       "name": "All The Arcanist Gear",
       "modIds": [
@@ -782,7 +782,7 @@
       "file": "alltheleaks-1.1.12+1.21.1-neoforge.jar",
       "size": 562895,
       "sha256": "ca64ec07c29cadb0e7703e993fbaad26029ebc4203626d2638aefe989e5be74f",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/alltheleaks-1.1.12%2B1.21.1-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/alltheleaks-1.1.12%2B1.21.1-neoforge.jar",
       "optional": false,
       "name": "All The Leaks",
       "modIds": [
@@ -793,7 +793,7 @@
       "file": "allthemodium-3.1.1_mc_1.21.1.jar",
       "size": 1957262,
       "sha256": "c0f80a7413496b1bd891b31595e35b7fce191c99eadc9dac38186a963aef7321",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/allthemodium-3.1.1_mc_1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/allthemodium-3.1.1_mc_1.21.1.jar",
       "optional": false,
       "name": "Allthemodium",
       "modIds": [
@@ -804,7 +804,7 @@
       "file": "alternate_current-mc1.21-1.9.0.jar",
       "size": 50425,
       "sha256": "d23731fcb31cf561544fd7a97b0076b3abb42a0ece0631f86de9a1425fe046f5",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/alternate_current-mc1.21-1.9.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/alternate_current-mc1.21-1.9.0.jar",
       "optional": false,
       "name": "Alternate Current",
       "modIds": [
@@ -815,7 +815,7 @@
       "file": "amendments-1.21-2.1.10-neoforge.jar",
       "size": 1168211,
       "sha256": "a2cbc46342c5f466f3b6e244f8820aa01f9d8381586b2c008b72fb77ae56045e",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/amendments-1.21-2.1.10-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/amendments-1.21-2.1.10-neoforge.jar",
       "optional": false,
       "name": "Amendments",
       "modIds": [
@@ -826,7 +826,7 @@
       "file": "appleskin-neoforge-mc1.21-3.0.9.jar",
       "size": 75804,
       "sha256": "38b48dd6231341c9f964ce6e42c57ec866c6cc8f72bec938390a59bafb3922df",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/appleskin-neoforge-mc1.21-3.0.9.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/appleskin-neoforge-mc1.21-3.0.9.jar",
       "optional": false,
       "name": "AppleSkin",
       "modIds": [
@@ -837,7 +837,7 @@
       "file": "appliedenergistics2-19.2.18.jar",
       "size": 8236552,
       "sha256": "df15a07f86ca1ca93aa66373f9d5d84dd3d4586631fceb38f4fbc85dad591e39",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/appliedenergistics2-19.2.18.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/appliedenergistics2-19.2.18.jar",
       "optional": false,
       "name": "Applied Energistics 2",
       "modIds": [
@@ -848,7 +848,7 @@
       "file": "architectury-13.0.11-neoforge.jar",
       "size": 584734,
       "sha256": "9cc92f2c09533fc5482c60f993bd891c655a0e32b637037cdcb7c2b23adedeeb",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/architectury-13.0.11-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/architectury-13.0.11-neoforge.jar",
       "optional": false,
       "name": "Architectury",
       "modIds": [
@@ -859,7 +859,7 @@
       "file": "ars_additions-1.21.1-21.3.0.jar",
       "size": 1458261,
       "sha256": "e634a3f0c39cd38007608cce1974a7c9bbad7d8202bfb6c75f17c2901f362c9b",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ars_additions-1.21.1-21.3.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ars_additions-1.21.1-21.3.0.jar",
       "optional": false,
       "name": "Ars Additions",
       "modIds": [
@@ -870,7 +870,7 @@
       "file": "ars_controle-1.21.1-1.6.16.jar",
       "size": 313828,
       "sha256": "595990b532b7e8cf23a5897c39edcdd9add52f208be9517ff7304e3b35361441",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ars_controle-1.21.1-1.6.16.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ars_controle-1.21.1-1.6.16.jar",
       "optional": false,
       "name": "Ars Controle",
       "modIds": [
@@ -881,7 +881,7 @@
       "file": "ars_creo-1.21.1-5.4.0.jar",
       "size": 95973,
       "sha256": "50f0fe5c5f855151c1482c1772ea94c2eaadc2b0c85c963bb9aeb421fc801e4f",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ars_creo-1.21.1-5.4.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ars_creo-1.21.1-5.4.0.jar",
       "optional": false,
       "name": "Ars Creo",
       "modIds": [
@@ -892,7 +892,7 @@
       "file": "ars_elemental-1.21.1-0.7.10.3.jar",
       "size": 2258694,
       "sha256": "85dd29a711f2ae8b18ca33167e32136b3b1b608950f3dc5dd14f8d01aa20ec51",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ars_elemental-1.21.1-0.7.10.3.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ars_elemental-1.21.1-0.7.10.3.jar",
       "optional": false,
       "name": "Ars Elemental",
       "modIds": [
@@ -903,7 +903,7 @@
       "file": "ars_nouveau-1.21.1-5.13.3.jar",
       "size": 19841105,
       "sha256": "45c1b6022d8e63464177c1f822bda22c3d6fb66970857fd7677e4e3ccffd259f",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ars_nouveau-1.21.1-5.13.3.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ars_nouveau-1.21.1-5.13.3.jar",
       "optional": false,
       "name": "Ars Nouveau",
       "modIds": [
@@ -914,7 +914,7 @@
       "file": "arseng-2.1.1-beta.jar",
       "size": 123229,
       "sha256": "9e2b78101f08bf325589cb98ffba9d91171fdd76ba587d54bdef9d5de18080bc",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/arseng-2.1.1-beta.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/arseng-2.1.1-beta.jar",
       "optional": false,
       "name": "Ars \u00c9nergistique",
       "modIds": [
@@ -925,7 +925,7 @@
       "file": "artifacts-neoforge-13.2.5.jar",
       "size": 1086922,
       "sha256": "e36a929420a0a616abdb28f5bbbdb866a426aa3bb78d1b39bc1183927c101ce6",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/artifacts-neoforge-13.2.5.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/artifacts-neoforge-13.2.5.jar",
       "optional": false,
       "name": "Artifacts",
       "modIds": [
@@ -936,7 +936,7 @@
       "file": "azimuth-1.4.8.jar",
       "size": 142919,
       "sha256": "fd401a291d141c24b797097aa8a4ae75b7d8448b5cb2a1d2f98bfcec801f687d",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/azimuth-1.4.8.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/azimuth-1.4.8.jar",
       "optional": false,
       "name": "Azimuth",
       "modIds": [
@@ -947,7 +947,7 @@
       "file": "backpacked-neoforge-1.21.1-3.0.5.jar",
       "size": 1282359,
       "sha256": "203f673ec7ea9e805ef10aff2725d770e0d9fba7add801dec5e31b312b419c01",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/backpacked-neoforge-1.21.1-3.0.5.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/backpacked-neoforge-1.21.1-3.0.5.jar",
       "optional": false,
       "name": "Backpacked",
       "modIds": [
@@ -958,7 +958,7 @@
       "file": "balm-neoforge-1.21.1-21.0.65.jar",
       "size": 783793,
       "sha256": "490fa5fcb7ca83a9b5a84e33c2832298db99d189131001b9277a1de7fdc0bf91",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/balm-neoforge-1.21.1-21.0.65.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/balm-neoforge-1.21.1-21.0.65.jar",
       "optional": false,
       "name": "Balm",
       "modIds": [
@@ -969,7 +969,7 @@
       "file": "bclib-21.0.26.jar",
       "size": 2159176,
       "sha256": "73ba7957d61588189eb35415f2ce9b063e7d4a102c6a4757582ba8fad310f2e0",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/bclib-21.0.26.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/bclib-21.0.26.jar",
       "optional": false,
       "name": "BCLib",
       "modIds": [
@@ -980,7 +980,7 @@
       "file": "bellsandwhistles-0.4.7-1.21.1.jar",
       "size": 193619,
       "sha256": "a438cf2ea3a05120e12342484f1e12ca11526fbf4195d259ce1d7df8a9b3ffca",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/bellsandwhistles-0.4.7-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/bellsandwhistles-0.4.7-1.21.1.jar",
       "optional": false,
       "name": "Create: Bells & Whistles",
       "modIds": [
@@ -991,7 +991,7 @@
       "file": "better-compatability-checker-neoforge-21.1.8.jar",
       "size": 25085,
       "sha256": "1ed1373aa54a486f19a0c68c7446fe39c227628e7f5048bff97917189307e7e8",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/better-compatability-checker-neoforge-21.1.8.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/better-compatability-checker-neoforge-21.1.8.jar",
       "optional": false,
       "name": "Better Compatibility Checker",
       "modIds": [
@@ -1002,7 +1002,7 @@
       "file": "betterblockz-0.2.10-1.21.1-neoforge.jar",
       "size": 7388885,
       "sha256": "97df039699ad2c035df87f8e859be022725c01235ab0303339438f11c2f1fb58",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/betterblockz-0.2.10-1.21.1-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/betterblockz-0.2.10-1.21.1-neoforge.jar",
       "optional": false,
       "name": "BetterBlockZ",
       "modIds": [
@@ -1013,7 +1013,7 @@
       "file": "biomemusic-1.21.1-4.1.jar",
       "size": 45162,
       "sha256": "ecdc9066ae9800ed2da0373fef73b4f24f0db664e357b05bdbbb8ec63e3af368",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/biomemusic-1.21.1-4.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/biomemusic-1.21.1-4.1.jar",
       "optional": false,
       "name": "biomemusic mod",
       "modIds": [
@@ -1024,7 +1024,7 @@
       "file": "bits_n_bobs-2.3.2.jar",
       "size": 2502544,
       "sha256": "308bf57cc6886235c9890a5a9049de5b30bddb9cfa865810b3828a2e9c702686",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/bits_n_bobs-2.3.2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/bits_n_bobs-2.3.2.jar",
       "optional": false,
       "name": "Create Bits 'n' Bobs",
       "modIds": [
@@ -1035,7 +1035,7 @@
       "file": "blacksite-platform-1.4.0.jar",
       "size": 77391,
       "sha256": "67c6b17e815d4ca11d30aa151b45ebc411ff16c9c3ceab76a336bac1071c4dd5",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/blacksite-platform-1.4.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/blacksite-platform-1.4.0.jar",
       "optional": false,
       "name": "Blacksite Platform",
       "modIds": [
@@ -1046,7 +1046,7 @@
       "file": "blueprint-1.21.1-8.2.0.jar",
       "size": 1214507,
       "sha256": "698b2e901e371202a583c1057fa50bb7b2415a359263b37dc8e62d3b73ea8a74",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/blueprint-1.21.1-8.2.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/blueprint-1.21.1-8.2.0.jar",
       "optional": false,
       "name": "Blueprint",
       "modIds": [
@@ -1057,7 +1057,7 @@
       "file": "boatiview-neoforge-0.0.6-1.21.1.jar",
       "size": 52795,
       "sha256": "c08f1c2188ab79b4f4085a72d98796d3c59fc3f836c6ce1f3755ea5b8928c77c",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/boatiview-neoforge-0.0.6-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/boatiview-neoforge-0.0.6-1.21.1.jar",
       "optional": false,
       "name": "Boat Item View",
       "modIds": [
@@ -1068,7 +1068,7 @@
       "file": "boatload-1.21.1-6.0.2.jar",
       "size": 375132,
       "sha256": "e9e3ac4e5a625254f475f72eb36692cc49ff9c1f6afd42758eb82987d6d90b54",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/boatload-1.21.1-6.0.2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/boatload-1.21.1-6.0.2.jar",
       "optional": false,
       "name": "Boatload",
       "modIds": [
@@ -1079,7 +1079,7 @@
       "file": "bookshelf-neoforge-1.21.1-21.1.81.jar",
       "size": 328813,
       "sha256": "19e88d40da2b6a114c2b808f7fb469d96e66a5379df0a8a43fcb7834498b3e76",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/bookshelf-neoforge-1.21.1-21.1.81.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/bookshelf-neoforge-1.21.1-21.1.81.jar",
       "optional": false,
       "name": "Bookshelf",
       "modIds": [
@@ -1090,7 +1090,7 @@
       "file": "botanypots-neoforge-1.21.1-21.1.44.jar",
       "size": 1068816,
       "sha256": "45b23ac195511f724f62ab5f0c2d7a1c2c2403ff324a7403a1142e28a7d65edd",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/botanypots-neoforge-1.21.1-21.1.44.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/botanypots-neoforge-1.21.1-21.1.44.jar",
       "optional": false,
       "name": "BotanyPots",
       "modIds": [
@@ -1101,7 +1101,7 @@
       "file": "bwncr-neoforge-1.21.1-3.20.4.jar",
       "size": 28573,
       "sha256": "5ad29f3287e9c6f5b20638f051597918657886a0cdbc5123cf20505210584ac4",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/bwncr-neoforge-1.21.1-3.20.4.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/bwncr-neoforge-1.21.1-3.20.4.jar",
       "optional": false,
       "name": "Bad Wither No Cookie Reloaded",
       "modIds": [
@@ -1112,7 +1112,7 @@
       "file": "caelus-neoforge-7.0.1+1.21.1.jar",
       "size": 50235,
       "sha256": "432a645557f29de159d9edde2fd109f8e3b32ff30895b4fede04ee5f1a1a682f",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/caelus-neoforge-7.0.1%2B1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/caelus-neoforge-7.0.1%2B1.21.1.jar",
       "optional": false,
       "name": "Caelus API",
       "modIds": [
@@ -1123,7 +1123,7 @@
       "file": "chat_heads-0.15.7-neoforge-1.21.jar",
       "size": 91948,
       "sha256": "02e10437ceeed34e14e0efe206204658e4b8aa8ee7df10f2a9e28ac20f1b0391",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/chat_heads-0.15.7-neoforge-1.21.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/chat_heads-0.15.7-neoforge-1.21.jar",
       "optional": false,
       "name": "Chat Heads",
       "modIds": [
@@ -1134,7 +1134,7 @@
       "file": "cherishedworlds-neoforge-10.1.1+1.21.1.jar",
       "size": 61728,
       "sha256": "73a352263e4d21dc4eaa9d52b31f949b896c507aec373e4218b0942fff8f73a3",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/cherishedworlds-neoforge-10.1.1%2B1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/cherishedworlds-neoforge-10.1.1%2B1.21.1.jar",
       "optional": false,
       "name": "Cherished Worlds",
       "modIds": [
@@ -1145,7 +1145,7 @@
       "file": "chunkactivitytracker-neoforge-1.0.1-1.21.1.jar",
       "size": 385815,
       "sha256": "4b0dc7252b626c80be0fb9e3e72ea3b461f33cdc66d6c08bad320a4ed4b864e3",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/chunkactivitytracker-neoforge-1.0.1-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/chunkactivitytracker-neoforge-1.0.1-1.21.1.jar",
       "optional": false,
       "name": "Chunk Activity Tracker",
       "modIds": [
@@ -1156,7 +1156,7 @@
       "file": "chunksending-1.21-3.9.jar",
       "size": 26277,
       "sha256": "b3154f9d2f531cbc21d5add8b050d75f6605907a19294d5d4ecccc9ff3dd9982",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/chunksending-1.21-3.9.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/chunksending-1.21-3.9.jar",
       "optional": false,
       "name": "chunksending mod",
       "modIds": [
@@ -1167,7 +1167,7 @@
       "file": "clientcrafting-1.21-2.1.jar",
       "size": 7144,
       "sha256": "318a7a7c28b9d5cbeecb69f8e27eb8d1b638d991108316364c64dc8bc5f013c0",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/clientcrafting-1.21-2.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/clientcrafting-1.21-2.1.jar",
       "optional": false,
       "name": "clientcrafting mod",
       "modIds": [
@@ -1178,7 +1178,7 @@
       "file": "cloth-config-15.0.140-neoforge.jar",
       "size": 1163890,
       "sha256": "65e722e0d98431a07c45f8bdd8d529a217cc8c175fde1740248bd5c1b4f3c0d4",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/cloth-config-15.0.140-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/cloth-config-15.0.140-neoforge.jar",
       "optional": false,
       "name": "Cloth Config v15 API",
       "modIds": [
@@ -1189,7 +1189,7 @@
       "file": "cmpackagecouriers-neoforge-2.3.0.jar",
       "size": 284825,
       "sha256": "76e728a765ee04a53e566eda6b302a05ff855965dcf0230cc33f3dd2c1836e8b",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/cmpackagecouriers-neoforge-2.3.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/cmpackagecouriers-neoforge-2.3.0.jar",
       "optional": false,
       "name": "Create More: Package Couriers",
       "modIds": [
@@ -1200,7 +1200,7 @@
       "file": "collective-1.21.1-8.39.jar",
       "size": 1061931,
       "sha256": "ae59b63790c3097fb01e7801c21f3e7feed13b151c2ad993895196c74381a8fe",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/collective-1.21.1-8.39.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/collective-1.21.1-8.39.jar",
       "optional": false,
       "name": "Collective",
       "modIds": [
@@ -1211,7 +1211,7 @@
       "file": "colorwheel-neoforge-1.3.0+mc1.21.1.jar",
       "size": 514376,
       "sha256": "3c7c1f91b1add47053f40a58375de492b87ce83309be378527f100cb842c07c0",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/colorwheel-neoforge-1.3.0%2Bmc1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/colorwheel-neoforge-1.3.0%2Bmc1.21.1.jar",
       "optional": false,
       "name": "Colorwheel",
       "modIds": [
@@ -1222,7 +1222,7 @@
       "file": "colorwheel_patcher-neoforge-1.0.5+mc1.21.1.jar",
       "size": 210569,
       "sha256": "2285a5154739d2e9889d979e3bdf54104b56d7966dac8d43367305e5aaedcce8",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/colorwheel_patcher-neoforge-1.0.5%2Bmc1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/colorwheel_patcher-neoforge-1.0.5%2Bmc1.21.1.jar",
       "optional": false,
       "name": "Colorwheel Patcher",
       "modIds": [
@@ -1233,7 +1233,7 @@
       "file": "commoncapabilities-1.21.1-neoforge-2.11.6.jar",
       "size": 283980,
       "sha256": "494fd342065cad35c8a729cb66dfc1287fc592e6800809e8f461362cf73ef520",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/commoncapabilities-1.21.1-neoforge-2.11.6.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/commoncapabilities-1.21.1-neoforge-2.11.6.jar",
       "optional": false,
       "name": "CommonCapabilities",
       "modIds": [
@@ -1244,7 +1244,7 @@
       "file": "configurable-3.5.2+1.21.1-neoforge.jar",
       "size": 159182,
       "sha256": "735076ab03947c0fc8a588ddfbe1cce5fa94b361fbaf8cc71f2325cb747e27b0",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/configurable-3.5.2%2B1.21.1-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/configurable-3.5.2%2B1.21.1-neoforge.jar",
       "optional": false,
       "name": "Configurable",
       "modIds": [
@@ -1255,7 +1255,7 @@
       "file": "connectivity-1.21.1-7.6.jar",
       "size": 114165,
       "sha256": "2366973ddae5ba00b9ba15a26e5b610a6648038b9f2549bf81b9ae61342b281a",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/connectivity-1.21.1-7.6.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/connectivity-1.21.1-7.6.jar",
       "optional": false,
       "name": "Connectivity Mod",
       "modIds": [
@@ -1266,7 +1266,7 @@
       "file": "connector-2.0.0-beta.17+1.21.1-full.jar",
       "size": 4573244,
       "sha256": "5a4ad10e57b8b1690832d9b77fc488fbe5e7cf41ac5a90d9f569bd78fbea25be",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/connector-2.0.0-beta.17%2B1.21.1-full.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/connector-2.0.0-beta.17%2B1.21.1-full.jar",
       "optional": false,
       "name": "Sinytra Connector bootstrap",
       "modIds": []
@@ -1275,7 +1275,7 @@
       "file": "continuity-3.0.0+1.21.neoforge.jar",
       "size": 1014626,
       "sha256": "4cc0a4a09ae09c64bb567e42381652b700f9cade5067a75e83115662cc475f0a",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/continuity-3.0.0%2B1.21.neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/continuity-3.0.0%2B1.21.neoforge.jar",
       "optional": false,
       "name": "Continuity",
       "modIds": [
@@ -1286,7 +1286,7 @@
       "file": "coppersplashing_1.21.1_v1.jar",
       "size": 16436,
       "sha256": "8c57197e1b079f06106902e02ed222998735a83eae30285d6b7d2565106777ff",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/coppersplashing_1.21.1_v1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/coppersplashing_1.21.1_v1.jar",
       "optional": false,
       "name": "Copper Splashing Recipes",
       "modIds": [
@@ -1297,7 +1297,7 @@
       "file": "copycats-3.0.9+mc.1.21.1-neoforge.jar",
       "size": 1799381,
       "sha256": "d1efdd8688af6603dff9425299ac4547ef56a7d5cfee757716ead7853276694e",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/copycats-3.0.9%2Bmc.1.21.1-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/copycats-3.0.9%2Bmc.1.21.1-neoforge.jar",
       "optional": false,
       "name": "Create: Copycats+",
       "modIds": [
@@ -1308,7 +1308,7 @@
       "file": "coroutil-neoforge-1.21.0-1.3.9.jar",
       "size": 65716,
       "sha256": "097434e256a428335cc4e9b718ad7bb9c6804c2c775aa3dd7149a6904adca2bc",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/coroutil-neoforge-1.21.0-1.3.9.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/coroutil-neoforge-1.21.0-1.3.9.jar",
       "optional": false,
       "name": "CoroUtil",
       "modIds": [
@@ -1319,7 +1319,7 @@
       "file": "corpse-neoforge-1.21.1-1.1.13.jar",
       "size": 253695,
       "sha256": "f61e750eb2cb49867483d34d6630e02597a52e41680fc38d1c65ece4ef36fd2b",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/corpse-neoforge-1.21.1-1.1.13.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/corpse-neoforge-1.21.1-1.1.13.jar",
       "optional": false,
       "name": "Corpse",
       "modIds": [
@@ -1330,7 +1330,7 @@
       "file": "crafting_on_a_stick-1.21.0.6.jar",
       "size": 78732,
       "sha256": "dc90054bc50fcf4680e33e1515629e2c92508c04d5594afd0eeb08777ad5c9b7",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/crafting_on_a_stick-1.21.0.6.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/crafting_on_a_stick-1.21.0.6.jar",
       "optional": false,
       "name": "Crafting On A Stick",
       "modIds": [
@@ -1341,7 +1341,7 @@
       "file": "create-1.21.1-6.0.10.jar",
       "size": 19123767,
       "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create-1.21.1-6.0.10.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create-1.21.1-6.0.10.jar",
       "optional": false,
       "name": "Create",
       "modIds": [
@@ -1352,7 +1352,7 @@
       "file": "create-central-kitchen-2.6.0.jar",
       "size": 488390,
       "sha256": "36df9749ca8a994c3b52284554307b47b990a18e43de347527726167614994cb",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create-central-kitchen-2.6.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create-central-kitchen-2.6.0.jar",
       "optional": false,
       "name": "Create: Central Kitchen",
       "modIds": [
@@ -1363,7 +1363,7 @@
       "file": "create-confectionery1.21.1_v1.1.3b.jar",
       "size": 2127265,
       "sha256": "1a5022528f5c06bf2cdd39c71169c90cd61e80c3f44879c747a7debd63e25a96",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create-confectionery1.21.1_v1.1.3b.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create-confectionery1.21.1_v1.1.3b.jar",
       "optional": false,
       "name": "Create Confectionery",
       "modIds": [
@@ -1374,7 +1374,7 @@
       "file": "create-enchantment-industry-2.4.2.jar",
       "size": 1283517,
       "sha256": "81f192bb53888e01f87a82eaac2f261c93715f2221dbcf5d8a8d414f912f75ef",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create-enchantment-industry-2.4.2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create-enchantment-industry-2.4.2.jar",
       "optional": false,
       "name": "Create: Enchantment Industry",
       "modIds": [
@@ -1385,7 +1385,7 @@
       "file": "create-integrated-farming-1.4.1b.jar",
       "size": 795395,
       "sha256": "70cb4708221c56c6fa7d2b592482f9e5b9e7e24e1f4d2f3643f588c7653d81c0",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create-integrated-farming-1.4.1b.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create-integrated-farming-1.4.1b.jar",
       "optional": false,
       "name": "Create: Integrated Farming",
       "modIds": [
@@ -1396,7 +1396,7 @@
       "file": "create-new-age-1.2.0+neoforge-mc1.21.1.jar",
       "size": 1644485,
       "sha256": "a217ea21ccc8364e99d86777e519436bc7c94516df9737ad0103047e48a44717",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create-new-age-1.2.0%2Bneoforge-mc1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create-new-age-1.2.0%2Bneoforge-mc1.21.1.jar",
       "optional": false,
       "name": "Create: New Age",
       "modIds": [
@@ -1407,7 +1407,7 @@
       "file": "create-stockmarket-1.1.0+mc1.21.1.jar",
       "size": 415550,
       "sha256": "31f0574d13a00e97014bb07d7a5b5c65fdd7fc13de45fabb09937421b35c07fa",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create-stockmarket-1.1.0%2Bmc1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create-stockmarket-1.1.0%2Bmc1.21.1.jar",
       "optional": false,
       "name": "Create: Stock Market",
       "modIds": [
@@ -1418,7 +1418,7 @@
       "file": "create-stuff-additions1.21.1_v2.1.4b.jar",
       "size": 1347181,
       "sha256": "4aee9a1af2754609ab31bfebf13dc0d7d648e61e440232dbf9bb3459941e23d5",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create-stuff-additions1.21.1_v2.1.4b.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create-stuff-additions1.21.1_v2.1.4b.jar",
       "optional": false,
       "name": "Create Stuff 'N Additions",
       "modIds": [
@@ -1429,7 +1429,7 @@
       "file": "create_aquatic_ambitions-1.21.1-2.0.4.jar",
       "size": 1074131,
       "sha256": "d50180fd30dc7f034ea4ad5185d18cfa652457be1d8e7a45f0b491d0e6642d44",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_aquatic_ambitions-1.21.1-2.0.4.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_aquatic_ambitions-1.21.1-2.0.4.jar",
       "optional": false,
       "name": "Create Aquatic Ambitions",
       "modIds": [
@@ -1440,7 +1440,7 @@
       "file": "create_bb-1.0.8-1.21.1.jar",
       "size": 2618795,
       "sha256": "36a1cf8eaef08254085f9190b6a3130dd787747ee30fb8eeb606d6a6e0f9bf4f",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_bb-1.0.8-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_bb-1.0.8-1.21.1.jar",
       "optional": false,
       "name": "Create: Blocks & Bogies",
       "modIds": [
@@ -1451,7 +1451,7 @@
       "file": "create_blaze_burner_fuels-1.0.2-neoforge-1.21.1.jar",
       "size": 768288,
       "sha256": "69235a1ddd64fa7a37c898258b45ef90ed204b9626c48b73b3ed2d8aa614103e",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_blaze_burner_fuels-1.0.2-neoforge-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_blaze_burner_fuels-1.0.2-neoforge-1.21.1.jar",
       "optional": false,
       "name": "Create: Blaze Burner Fuels",
       "modIds": [
@@ -1462,7 +1462,7 @@
       "file": "create_chocolate_fountain-1.21.1-1.1.0.jar",
       "size": 67464,
       "sha256": "295a34095366147c206f101d1f00f81daf53735d05be865be4eba3d709461274",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_chocolate_fountain-1.21.1-1.1.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_chocolate_fountain-1.21.1-1.1.0.jar",
       "optional": false,
       "name": "Create Chocolate Fountain",
       "modIds": [
@@ -1473,7 +1473,7 @@
       "file": "create_connected-1.3.3-mc1.21.1.jar",
       "size": 6786784,
       "sha256": "89d2404d2d5bc696b1813e39b9d1616a41888f74a648771152b0b0323a490265",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_connected-1.3.3-mc1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_connected-1.3.3-mc1.21.1.jar",
       "optional": false,
       "name": "Create: Connected",
       "modIds": [
@@ -1484,7 +1484,7 @@
       "file": "create_deep_dark-3.0.2-neoforge-1.21.1.jar",
       "size": 254417,
       "sha256": "7e1fe63771b9a586a6f5740cb4dbc653e0d7a44f17538db67ad6ce843362112b",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_deep_dark-3.0.2-neoforge-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_deep_dark-3.0.2-neoforge-1.21.1.jar",
       "optional": false,
       "name": "Create: Deep Dark",
       "modIds": [
@@ -1495,7 +1495,7 @@
       "file": "create_electric_blaze-1.0.0.jar",
       "size": 215652,
       "sha256": "2c2259fdaeb9e562d8f0f68406137acd5ab1ac32f09c83a1baf0aeda1819f33d",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_electric_blaze-1.0.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_electric_blaze-1.0.0.jar",
       "optional": false,
       "name": "Create: Electric Blaze",
       "modIds": [
@@ -1506,7 +1506,7 @@
       "file": "create_factory-0.7b-1.21.1.jar",
       "size": 212765,
       "sha256": "a2dc0e9dd3c894e1373512035a6483701827a42e1f3da334da9457c124639f6e",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_factory-0.7b-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_factory-0.7b-1.21.1.jar",
       "optional": false,
       "name": "Create: Factory",
       "modIds": [
@@ -1517,7 +1517,7 @@
       "file": "create_fantasizing-1.21.1-1.1.3.jar",
       "size": 407834,
       "sha256": "affe61125af5eba85ad83c00038a5e3ef3c6788bf831be93ceb503096dee51ab",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_fantasizing-1.21.1-1.1.3.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_fantasizing-1.21.1-1.1.3.jar",
       "optional": false,
       "name": "Create: Fantasizing Again",
       "modIds": [
@@ -1528,7 +1528,7 @@
       "file": "create_generators-1.2.5-neoforge-1.21.1.jar",
       "size": 215204,
       "sha256": "04789729c6708f1ce03e2d8022007f91143da708820b2b54a227714fdc58ebd2",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_generators-1.2.5-neoforge-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_generators-1.2.5-neoforge-1.21.1.jar",
       "optional": false,
       "name": "Create: Generators",
       "modIds": [
@@ -1539,7 +1539,7 @@
       "file": "create_hypertube-0.6.0-NEOFORGE.jar",
       "size": 546142,
       "sha256": "7bdb8979c7ff7d3b29f7a23771b6ae4870a6dcb7ce2e4a3214fdd6059aacace8",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_hypertube-0.6.0-NEOFORGE.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_hypertube-0.6.0-NEOFORGE.jar",
       "optional": false,
       "name": "Create Hypertube",
       "modIds": [
@@ -1550,7 +1550,7 @@
       "file": "create_mob_spawners-1.1.0.jar",
       "size": 255619,
       "sha256": "f85f11f4b183d45b30ead9883e7a83730aa4a2ab1179551c063f75e346d40ba7",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_mob_spawners-1.1.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_mob_spawners-1.1.0.jar",
       "optional": false,
       "name": "Create: Mob Spawners",
       "modIds": [
@@ -1561,7 +1561,7 @@
       "file": "create_mobile_packages-1.21.1-0.7.7.jar",
       "size": 605614,
       "sha256": "353bd6cd1e75f9e85241fb4e7147153d83a983569cb67ca9a6cc4d3fe2da7a80",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_mobile_packages-1.21.1-0.7.7.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_mobile_packages-1.21.1-0.7.7.jar",
       "optional": false,
       "name": "Create: Mobile Packages",
       "modIds": [
@@ -1572,7 +1572,7 @@
       "file": "create_optical-0.4.2.jar",
       "size": 8003762,
       "sha256": "52d32c5362617c7b796efbc1a588e4d844107252fe30c5645eb10741d5c090bd",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_optical-0.4.2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_optical-0.4.2.jar",
       "optional": false,
       "name": "Create Optical Mod",
       "modIds": [
@@ -1583,7 +1583,7 @@
       "file": "create_pattern_schematics-2.0.10.jar",
       "size": 221764,
       "sha256": "d6525b9ab9914a194ca5aa00e6605f5977d8ac28722cdccce018da44f62bc5c5",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_pattern_schematics-2.0.10.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_pattern_schematics-2.0.10.jar",
       "optional": false,
       "name": "Create: Pattern Schematics",
       "modIds": [
@@ -1594,7 +1594,7 @@
       "file": "create_things_and_misc-4.1.1-neoforge-1.21.1.jar",
       "size": 1055815,
       "sha256": "37cfe32ca602a37bd21307e6f456a35788c30315722f14e07326ff555d188fc0",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_things_and_misc-4.1.1-neoforge-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_things_and_misc-4.1.1-neoforge-1.21.1.jar",
       "optional": false,
       "name": "create: things and misc",
       "modIds": [
@@ -1605,7 +1605,7 @@
       "file": "create_train_parts-0.5.2-1.21.1-6.0.10-281.jar",
       "size": 3699282,
       "sha256": "9355fb4086feb09645df5434ef98936f217f0ede914cff6fbeba531ab3ab9ddc",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_train_parts-0.5.2-1.21.1-6.0.10-281.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_train_parts-0.5.2-1.21.1-6.0.10-281.jar",
       "optional": false,
       "name": "Create Train Parts",
       "modIds": [
@@ -1616,7 +1616,7 @@
       "file": "create_tweaked_controllers-1.21.1-1.2.7.jar",
       "size": 303343,
       "sha256": "eda56263fabfcf4064dbaa8950a7f469775d4457dc807ee84ba29169690fda34",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_tweaked_controllers-1.21.1-1.2.7.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_tweaked_controllers-1.21.1-1.2.7.jar",
       "optional": false,
       "name": "Create Tweaked Controllers",
       "modIds": [
@@ -1627,7 +1627,7 @@
       "file": "create_ultimate_factory-2.2.4-neoforge-1.21.1.jar",
       "size": 235239,
       "sha256": "b95dcdd43c859eaf1825f33b2b4c42226187a1e875d368b0b24ed0be1e0fa1b0",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_ultimate_factory-2.2.4-neoforge-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_ultimate_factory-2.2.4-neoforge-1.21.1.jar",
       "optional": false,
       "name": "Create: Ultimate Factory",
       "modIds": [
@@ -1638,7 +1638,7 @@
       "file": "create_vibrant_vaults-0.3.2.jar",
       "size": 2687938,
       "sha256": "cebf5d1d1793fbfc2ee25b63d6f929910ad04ff72da5c1a6987d33961708cff1",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_vibrant_vaults-0.3.2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_vibrant_vaults-0.3.2.jar",
       "optional": false,
       "name": "Create: Vibrant Vaults",
       "modIds": [
@@ -1649,7 +1649,7 @@
       "file": "create_winery-2.0.2-neoforge-1.21.1.jar",
       "size": 513007,
       "sha256": "fc79b74000361cfbb7586e72c28a584d22e605561a2a1952f5c82310373f8612",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_winery-2.0.2-neoforge-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_winery-2.0.2-neoforge-1.21.1.jar",
       "optional": false,
       "name": "Create: Winery",
       "modIds": [
@@ -1660,7 +1660,7 @@
       "file": "create_wrapped-1.0.3-neoforge-1.21.1.jar",
       "size": 724898,
       "sha256": "2f56bb7508c8ae2eeffaea65d655080334a3d814394a89a7510b81b0e22790e5",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/create_wrapped-1.0.3-neoforge-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/create_wrapped-1.0.3-neoforge-1.21.1.jar",
       "optional": false,
       "name": "Create: Wrapped",
       "modIds": [
@@ -1671,7 +1671,7 @@
       "file": "createaddition-1.6.0.jar",
       "size": 1661802,
       "sha256": "41876c3780b70365a1848994d146a73423cc19fbe86485885795d9e7d855e7e9",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/createaddition-1.6.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/createaddition-1.6.0.jar",
       "optional": false,
       "name": "Create Crafts & Additions",
       "modIds": [
@@ -1682,7 +1682,7 @@
       "file": "createbetterfps-1.21.1-1.1.5.jar",
       "size": 26542,
       "sha256": "13fff8caa3fd6de652d12f8a989180c502bc11009e2a16bb0f89bb47fa57bac3",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/createbetterfps-1.21.1-1.1.5.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/createbetterfps-1.21.1-1.1.5.jar",
       "optional": false,
       "name": "CreateBetterFps",
       "modIds": [
@@ -1693,7 +1693,7 @@
       "file": "createcafe-1.4.3.jar",
       "size": 390889,
       "sha256": "ee8b0f78812d6a97aab0c1416ee599a538ebeac8456b1e494d06a48fbe9eff14",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/createcafe-1.4.3.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/createcafe-1.4.3.jar",
       "optional": false,
       "name": "Create Cafe",
       "modIds": [
@@ -1704,7 +1704,7 @@
       "file": "createdieselgenerators-1.21.1-1.3.15.jar",
       "size": 3154746,
       "sha256": "56ef1d574278fc311f1ffa223dbd613077b899354a18d01ae8dca2578a4e2990",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/createdieselgenerators-1.21.1-1.3.15.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/createdieselgenerators-1.21.1-1.3.15.jar",
       "optional": false,
       "name": "Create Diesel Generators",
       "modIds": [
@@ -1715,7 +1715,7 @@
       "file": "createfood-neoforge-1.21.1-2.7.1.jar",
       "size": 9502179,
       "sha256": "f156291f5e16caf918acd5e77d052a82b8789a6be7a365d2d8e637efeaf3eb93",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/createfood-neoforge-1.21.1-2.7.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/createfood-neoforge-1.21.1-2.7.1.jar",
       "optional": false,
       "name": "Create: Food",
       "modIds": [
@@ -1726,7 +1726,7 @@
       "file": "createframed-1.21.1-1.8.2.jar",
       "size": 2871366,
       "sha256": "a1f0434f5485de5ba5683320ebca7b71841488421a5249641ae357dbeeb35283",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/createframed-1.21.1-1.8.2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/createframed-1.21.1-1.8.2.jar",
       "optional": false,
       "name": "Create: Framed",
       "modIds": [
@@ -1737,7 +1737,7 @@
       "file": "creategarnished-0.1.7.4+1.21.1-neoforged.jar",
       "size": 2388846,
       "sha256": "b92220f179391b85348a0b648e51f59cc2d434c30b831c2c75f0f5de16ab251c",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/creategarnished-0.1.7.4%2B1.21.1-neoforged.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/creategarnished-0.1.7.4%2B1.21.1-neoforged.jar",
       "optional": false,
       "name": "Create: Garnished",
       "modIds": [
@@ -1748,7 +1748,7 @@
       "file": "createmechanicalconfection-0.3.0.jar",
       "size": 402546,
       "sha256": "596be136459fec44b6ab8205016822933fb23e9b5bd00d8660468bf6a07a42e9",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/createmechanicalconfection-0.3.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/createmechanicalconfection-0.3.0.jar",
       "optional": false,
       "name": "Create:Mechanical Confection",
       "modIds": [
@@ -1759,7 +1759,7 @@
       "file": "createmetalwork-2.0.0.jar",
       "size": 739966,
       "sha256": "2cc07f6c62219bf0434f322180330e7276b16a9af5b44527c494b2e7af274583",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/createmetalwork-2.0.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/createmetalwork-2.0.0.jar",
       "optional": false,
       "name": "Create: Metalwork",
       "modIds": [
@@ -1770,7 +1770,7 @@
       "file": "createornithopterglider-1.2.0-1.21.1.jar",
       "size": 732792,
       "sha256": "4edd18f61e3a9accd81266aca59787ffa37c7f3361dd01e1e92be0e4ac978749",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/createornithopterglider-1.2.0-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/createornithopterglider-1.2.0-1.21.1.jar",
       "optional": false,
       "name": "Create: Ornithopter Glider",
       "modIds": [
@@ -1781,7 +1781,7 @@
       "file": "createprism-1.2.2.jar",
       "size": 1287223,
       "sha256": "3b9c80f8a0104a2cee1af2b0a17b5a500f5600c55bccc441a34063154587a8fa",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/createprism-1.2.2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/createprism-1.2.2.jar",
       "optional": false,
       "name": "Create: Prismatic Shine",
       "modIds": [
@@ -1792,7 +1792,7 @@
       "file": "createrailwaysnavigator-neoforge-1.21.1-beta-0.9.1-C6.jar",
       "size": 2071249,
       "sha256": "336536a181faf6db7f756393248e786382fdd0c1c2760ff2dfc4b265859321b7",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/createrailwaysnavigator-neoforge-1.21.1-beta-0.9.1-C6.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/createrailwaysnavigator-neoforge-1.21.1-beta-0.9.1-C6.jar",
       "optional": false,
       "name": "Create Railways Navigator",
       "modIds": [
@@ -1803,7 +1803,7 @@
       "file": "createschematicchecker-2.27.45-6.0-neoforge-1.21.1.jar",
       "size": 348809,
       "sha256": "115794ab9e9293dcdbe0db05d5e4ffbb68fa8eaca16ca8f2a5ef36079d50d098",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/createschematicchecker-2.27.45-6.0-neoforge-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/createschematicchecker-2.27.45-6.0-neoforge-1.21.1.jar",
       "optional": false,
       "name": "Create:Schematic Checker",
       "modIds": [
@@ -1814,7 +1814,7 @@
       "file": "createtransmission-1.2.2+neoforge-create6-1.21.1.jar",
       "size": 250901,
       "sha256": "0869f9cbf7c291ed680df8bb345cfffb63ed2c7b494eddb8314778cda848e8fe",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/createtransmission-1.2.2%2Bneoforge-create6-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/createtransmission-1.2.2%2Bneoforge-create6-1.21.1.jar",
       "optional": false,
       "name": "Create: Transmission",
       "modIds": [
@@ -1825,7 +1825,7 @@
       "file": "cupboard-1.21.1-4.1.jar",
       "size": 30206,
       "sha256": "7d3f1bcca3acf2e7b1f3d359d5e0691cbb5a0f95869064752e7612b2d13e5b9e",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/cupboard-1.21.1-4.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/cupboard-1.21.1-4.1.jar",
       "optional": false,
       "name": "Cupboard mod",
       "modIds": [
@@ -1836,7 +1836,7 @@
       "file": "curios-neoforge-9.5.1+1.21.1.jar",
       "size": 410690,
       "sha256": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/curios-neoforge-9.5.1%2B1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/curios-neoforge-9.5.1%2B1.21.1.jar",
       "optional": false,
       "name": "Curios API",
       "modIds": [
@@ -1847,7 +1847,7 @@
       "file": "cyclopscore-1.21.1-neoforge-1.30.0.jar",
       "size": 1163177,
       "sha256": "45b36d7ac402096a71beb0d1538d04a77f1e05f84e181a03b15fddcd2175e98b",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/cyclopscore-1.21.1-neoforge-1.30.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/cyclopscore-1.21.1-neoforge-1.30.0.jar",
       "optional": false,
       "name": "Cyclops Core",
       "modIds": [
@@ -1858,7 +1858,7 @@
       "file": "despawntweaks-neoforge-1.0.0-1.21.1.jar",
       "size": 458075,
       "sha256": "c3c65c7c58657b2b73db2a25d5c9acccb0115a2d64af40426db5d43c32028981",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/despawntweaks-neoforge-1.0.0-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/despawntweaks-neoforge-1.0.0-1.21.1.jar",
       "optional": false,
       "name": "Despawn Tweaks",
       "modIds": [
@@ -1869,7 +1869,7 @@
       "file": "does_it_tick-neoforge-1.1.4-1.21.1.jar",
       "size": 93269,
       "sha256": "414b3fb33c695d463f0ea138753457fc4d38cdd2d3788b457545bbda3dbf882b",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/does_it_tick-neoforge-1.1.4-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/does_it_tick-neoforge-1.1.4-1.21.1.jar",
       "optional": false,
       "name": "Does It Tick?",
       "modIds": [
@@ -1880,7 +1880,7 @@
       "file": "doubleslabs-neoforge-1.21.1-0.4.0.jar",
       "size": 179940,
       "sha256": "d1b9e956823acf85a64aad25064832b5c2d798c4cc5a8aa02b419821acc43463",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/doubleslabs-neoforge-1.21.1-0.4.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/doubleslabs-neoforge-1.21.1-0.4.0.jar",
       "optional": false,
       "name": "DoubleSlabs",
       "modIds": [
@@ -1891,7 +1891,7 @@
       "file": "dragonlib-neoforge-1.21.1-beta-3.0.28.jar",
       "size": 2107270,
       "sha256": "ba127947220504d1410716e422ef6a9a387d818a922ad5fdb3be044f9f7556f7",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/dragonlib-neoforge-1.21.1-beta-3.0.28.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/dragonlib-neoforge-1.21.1-beta-3.0.28.jar",
       "optional": false,
       "name": "DragonLib",
       "modIds": [
@@ -1902,7 +1902,7 @@
       "file": "drippyloadingscreen_neoforge_3.1.5_MC_1.21.1.jar",
       "size": 168632,
       "sha256": "f1fcb6cf3cbc7a6055fed0912bf284a7c455a0830de42460943fc5e130072759",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/drippyloadingscreen_neoforge_3.1.5_MC_1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/drippyloadingscreen_neoforge_3.1.5_MC_1.21.1.jar",
       "optional": false,
       "name": "Drippy Loading Screen",
       "modIds": [
@@ -1913,7 +1913,7 @@
       "file": "e4mc-neoforge-6.2.1.jar",
       "size": 664332,
       "sha256": "41ee0d18fafe39f7422712b342248ebffbf392910bdb8d160c928e575edb29f0",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/e4mc-neoforge-6.2.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/e4mc-neoforge-6.2.1.jar",
       "optional": false,
       "name": "e4mc",
       "modIds": [
@@ -1924,7 +1924,7 @@
       "file": "electroenergetics-1.21.1-1.1.1.jar",
       "size": 4771388,
       "sha256": "ea5df2c5100a4aa178bd0054779015d85c63da221a782915240656601b51aefd",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/electroenergetics-1.21.1-1.1.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/electroenergetics-1.21.1-1.1.1.jar",
       "optional": false,
       "name": "Create Electro Energetics",
       "modIds": [
@@ -1935,7 +1935,7 @@
       "file": "enchdesc-neoforge-1.21.1-21.1.11.jar",
       "size": 82648,
       "sha256": "868d3eab3305d96dd3ecf510d18a7aa7444e2aea168695cf4aff23a96bec975f",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/enchdesc-neoforge-1.21.1-21.1.11.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/enchdesc-neoforge-1.21.1-21.1.11.jar",
       "optional": false,
       "name": "EnchantmentDescriptions",
       "modIds": [
@@ -1946,7 +1946,7 @@
       "file": "entity_model_features-3.3.5-1.21-neoforge.jar",
       "size": 630286,
       "sha256": "68d185eeadb63f6669f2040cc35c4d2abaae7619c311d7b541d31628785e45db",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/entity_model_features-3.3.5-1.21-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/entity_model_features-3.3.5-1.21-neoforge.jar",
       "optional": false,
       "name": "Entity Model Features",
       "modIds": [
@@ -1957,7 +1957,7 @@
       "file": "entity_texture_features-7.2.1-1.21-neoforge.jar",
       "size": 783217,
       "sha256": "20d550603624a9702de92287d151536d6b98484de6ccdda23ea4452e1066264a",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/entity_texture_features-7.2.1-1.21-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/entity_texture_features-7.2.1-1.21-neoforge.jar",
       "optional": false,
       "name": "Entity Texture Features",
       "modIds": [
@@ -1968,7 +1968,7 @@
       "file": "escalated-1.3.2-mc.1.21.1.jar",
       "size": 512624,
       "sha256": "c25ee54ebec01dcf5d471853f862391e3636c185daa88dba519d66326d60b1be",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/escalated-1.3.2-mc.1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/escalated-1.3.2-mc.1.21.1.jar",
       "optional": false,
       "name": "Create: Escalated",
       "modIds": [
@@ -1979,7 +1979,7 @@
       "file": "extra_create_recipes_1.21.1_v1.jar",
       "size": 2527,
       "sha256": "40b20257d3bef83319d2f21e437c2896fc732cfe68fb21f642dc051af17e2a23",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/extra_create_recipes_1.21.1_v1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/extra_create_recipes_1.21.1_v1.jar",
       "optional": false,
       "name": "Extra Create Recipes",
       "modIds": [
@@ -1990,7 +1990,7 @@
       "file": "fancymenu_neoforge_3.9.12_MC_1.21.1.jar",
       "size": 25912346,
       "sha256": "fd0f446c22bb42a0a3ac5cbdcb614abcba5a70f99e2a0cda6556a8efad2859a5",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/fancymenu_neoforge_3.9.12_MC_1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/fancymenu_neoforge_3.9.12_MC_1.21.1.jar",
       "optional": false,
       "name": "FancyMenu",
       "modIds": [
@@ -2001,7 +2001,7 @@
       "file": "ferritecore-7.0.3-neoforge.jar",
       "size": 121559,
       "sha256": "d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ferritecore-7.0.3-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ferritecore-7.0.3-neoforge.jar",
       "optional": false,
       "name": "Ferrite Core",
       "modIds": [
@@ -2012,7 +2012,7 @@
       "file": "forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar",
       "size": 5613421,
       "sha256": "56cb524bcbb2430113f586d4d58ba79bfd66f73684c019aacb528690c3d8d07d",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/forgified-fabric-api-0.116.15%2B2.3.5%2B1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/forgified-fabric-api-0.116.15%2B2.3.5%2B1.21.1.jar",
       "optional": false,
       "name": "Forgified Fabric API / Forgified Fabric API (dummy)",
       "modIds": [
@@ -2024,7 +2024,7 @@
       "file": "framework-neoforge-1.21.1-0.13.11.jar",
       "size": 387334,
       "sha256": "429ea90a162d7c25c1463ee60979e4d7b1ddb525d9384a3a2a2f45d70bda03f5",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/framework-neoforge-1.21.1-0.13.11.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/framework-neoforge-1.21.1-0.13.11.jar",
       "optional": false,
       "name": "Framework",
       "modIds": [
@@ -2035,7 +2035,7 @@
       "file": "ftb-filter-system-neoforge-21.1.4.jar",
       "size": 211671,
       "sha256": "b8700e8bfd9c78b09bc7819cb28a6318b20d2bf68969bc6894a0bfa39581a99b",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ftb-filter-system-neoforge-21.1.4.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ftb-filter-system-neoforge-21.1.4.jar",
       "optional": false,
       "name": "FTB Filter System",
       "modIds": [
@@ -2046,7 +2046,7 @@
       "file": "ftb-library-neoforge-2101.1.35.jar",
       "size": 1439018,
       "sha256": "be7b2bd0b5370a9951624a1d84fd802efecae88d5a0cd24552731f887430599d",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ftb-library-neoforge-2101.1.35.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ftb-library-neoforge-2101.1.35.jar",
       "optional": false,
       "name": "FTB Library",
       "modIds": [
@@ -2057,7 +2057,7 @@
       "file": "ftb-quests-neoforge-2101.1.34.jar",
       "size": 1609252,
       "sha256": "ea09118f399f24640ccbe5b4171b59a4d7becba789a8c36783dbb2a04c00bf24",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ftb-quests-neoforge-2101.1.34.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ftb-quests-neoforge-2101.1.34.jar",
       "optional": false,
       "name": "FTB Quests",
       "modIds": [
@@ -2068,7 +2068,7 @@
       "file": "ftb-teams-neoforge-2101.1.11.jar",
       "size": 308236,
       "sha256": "e6bcd670493624e6906df872a9c6af4a33fe6405cac57a32c59cd4cd5838c655",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ftb-teams-neoforge-2101.1.11.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ftb-teams-neoforge-2101.1.11.jar",
       "optional": false,
       "name": "FTB Teams",
       "modIds": [
@@ -2079,7 +2079,7 @@
       "file": "ftb-ultimine-neoforge-2101.1.15.jar",
       "size": 177109,
       "sha256": "1393a85ceb6e4794450d5f06043e3a033278e31b86de8e03950d8b87604b2213",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ftb-ultimine-neoforge-2101.1.15.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ftb-ultimine-neoforge-2101.1.15.jar",
       "optional": false,
       "name": "FTB Ultimine",
       "modIds": [
@@ -2090,7 +2090,7 @@
       "file": "ftb-xmod-compat-neoforge-21.1.11.jar",
       "size": 153045,
       "sha256": "0bfa6513c51b697a81ab2afc1b25983d3e39fe4a33ec334b57e6384b25a17450",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ftb-xmod-compat-neoforge-21.1.11.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ftb-xmod-compat-neoforge-21.1.11.jar",
       "optional": false,
       "name": "FTB XMod Compat",
       "modIds": [
@@ -2101,7 +2101,7 @@
       "file": "functionalstorage-1.21.1-1.5.8.jar",
       "size": 810628,
       "sha256": "e3e7368c28a24e7de5b877988aa92cc94ca7417c8f60b7d28e7f584a94a51147",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/functionalstorage-1.21.1-1.5.8.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/functionalstorage-1.21.1-1.5.8.jar",
       "optional": false,
       "name": "Functional Storage",
       "modIds": [
@@ -2112,7 +2112,7 @@
       "file": "gallery-1.21.1-2.0.1.jar",
       "size": 391516,
       "sha256": "76c6dc099bb0d05daf0f226bef99efa05aeabc0db1b6efa7b6187fcaa53a4ffb",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/gallery-1.21.1-2.0.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/gallery-1.21.1-2.0.1.jar",
       "optional": false,
       "name": "Gallery",
       "modIds": [
@@ -2123,7 +2123,7 @@
       "file": "geckolib-neoforge-1.21.1-4.9.2.jar",
       "size": 630584,
       "sha256": "5e548466af9ab6aca7a91a7c7d4dc0dc8bc385e22958aed5da0e7bebd0fa3fba",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/geckolib-neoforge-1.21.1-4.9.2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/geckolib-neoforge-1.21.1-4.9.2.jar",
       "optional": false,
       "name": "GeckoLib 4",
       "modIds": [
@@ -2134,7 +2134,7 @@
       "file": "gpumemleakfix-1.21-1.8.jar",
       "size": 6574,
       "sha256": "4bd0682e26b8d4ba78442ce8d969fc7fa3cac2c21fc600de34a54b2ff7814931",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/gpumemleakfix-1.21-1.8.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/gpumemleakfix-1.21-1.8.jar",
       "optional": false,
       "name": "Gpu memory leak fix",
       "modIds": [
@@ -2145,7 +2145,7 @@
       "file": "guideme-21.1.19.jar",
       "size": 9311992,
       "sha256": "2ce254edb931c3c3cf81d69abaf8f4ce5b871bf85e64984f366bf044173bd66a",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/guideme-21.1.19.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/guideme-21.1.19.jar",
       "optional": false,
       "name": "GuideME",
       "modIds": [
@@ -2156,7 +2156,7 @@
       "file": "handcrafted-neoforge-1.21.1-4.0.3.jar",
       "size": 7132842,
       "sha256": "6f2a776fb28ed07d370899814e5e711fbeebe31396097d78a3b550439b364948",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/handcrafted-neoforge-1.21.1-4.0.3.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/handcrafted-neoforge-1.21.1-4.0.3.jar",
       "optional": false,
       "name": "Handcrafted",
       "modIds": [
@@ -2167,7 +2167,7 @@
       "file": "i_architecture-0.1.1b.jar",
       "size": 1350779,
       "sha256": "295edfb0f3dec36bc294debe377425a9ad21f7ce98305ca9f7b03d4b0605a544",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/i_architecture-0.1.1b.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/i_architecture-0.1.1b.jar",
       "optional": false,
       "name": "Create: Industrialized Architecture",
       "modIds": [
@@ -2178,7 +2178,7 @@
       "file": "idas-1.13.7+1.21.1-neoforge.jar",
       "size": 14485475,
       "sha256": "7f5031dd90ae0b32d7fe5c6c47c877cac1eb95a178bc78d196cb24c17ce82522",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/idas-1.13.7%2B1.21.1-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/idas-1.13.7%2B1.21.1-neoforge.jar",
       "optional": false,
       "name": "Integrated Dungeons and Structures",
       "modIds": [
@@ -2189,7 +2189,7 @@
       "file": "immersive_aircraft-1.4.6+1.21.1-neoforge.jar",
       "size": 2447578,
       "sha256": "953222fefb9439b74760583d46dbf620ed85cc614f5ab629aec05ab6ce40ebe7",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/immersive_aircraft-1.4.6%2B1.21.1-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/immersive_aircraft-1.4.6%2B1.21.1-neoforge.jar",
       "optional": false,
       "name": "Immersive Aircraft",
       "modIds": [
@@ -2200,7 +2200,7 @@
       "file": "industrialforegoing-1.21-3.6.27.jar",
       "size": 4747295,
       "sha256": "7612f456e00244786184a50f98af48a797ac63c9149b2b33cf29f20a9963beb2",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/industrialforegoing-1.21-3.6.27.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/industrialforegoing-1.21-3.6.27.jar",
       "optional": false,
       "name": "Industrial Foregoing",
       "modIds": [
@@ -2211,7 +2211,7 @@
       "file": "integrated_api-neoforge-1.21.1-1.8.0.jar",
       "size": 470460,
       "sha256": "48149e2aa1b3bc18e1d16a75e652b9e1405250045bfb434f04aea90b75d3c013",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/integrated_api-neoforge-1.21.1-1.8.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/integrated_api-neoforge-1.21.1-1.8.0.jar",
       "optional": false,
       "name": "Integrated API",
       "modIds": [
@@ -2222,7 +2222,7 @@
       "file": "integrated_stronghold-1.1.4+1.21.1-neoforge.jar",
       "size": 5125265,
       "sha256": "c6ac6ad68de806524615238f8a7efe511c417b8cd56ffceb7dd62aad9c8b821b",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/integrated_stronghold-1.1.4%2B1.21.1-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/integrated_stronghold-1.1.4%2B1.21.1-neoforge.jar",
       "optional": false,
       "name": "Integrated Stronghold",
       "modIds": [
@@ -2233,7 +2233,7 @@
       "file": "integrated_villages-1.3.3+1.21.1-neoforge.jar",
       "size": 4592084,
       "sha256": "b53a485828da352b1a6a24cd2796aacf5d8360632b98c7dfba295f235d41ec00",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/integrated_villages-1.3.3%2B1.21.1-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/integrated_villages-1.3.3%2B1.21.1-neoforge.jar",
       "optional": false,
       "name": "Integrated Villages",
       "modIds": [
@@ -2244,7 +2244,7 @@
       "file": "integrateddynamics-1.21.1-neoforge-1.38.0.jar",
       "size": 4499961,
       "sha256": "61348c51f006516ed133f2a9961e2fb1e09d86eda6a8bd06226419d20ceace61",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/integrateddynamics-1.21.1-neoforge-1.38.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/integrateddynamics-1.21.1-neoforge-1.38.0.jar",
       "optional": false,
       "name": "IntegratedDynamics / IntegratedDynamics-Compat",
       "modIds": [
@@ -2256,7 +2256,7 @@
       "file": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
       "size": 2540723,
       "sha256": "60d5f8bf52f25e9986440f4a4270a6bd986d9cff994510e1108ac1547063b314",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/iris-neoforge-1.8.14-beta.1%2Bmc1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/iris-neoforge-1.8.14-beta.1%2Bmc1.21.1.jar",
       "optional": false,
       "name": "Iris",
       "modIds": [
@@ -2267,7 +2267,7 @@
       "file": "ironfurnaces-neoforge-1.21.1-4.3.2.jar",
       "size": 576866,
       "sha256": "97c0d7c323fda4aa852fdce69bf1250a40323bb9d34ef6c87790e07334d1c2de",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/ironfurnaces-neoforge-1.21.1-4.3.2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/ironfurnaces-neoforge-1.21.1-4.3.2.jar",
       "optional": false,
       "name": "Iron Furnaces",
       "modIds": [
@@ -2278,7 +2278,7 @@
       "file": "jei-1.21.1-neoforge-19.51.0.418.jar",
       "size": 1804792,
       "sha256": "8bc3936d869e4040a5649c58b7e8be1c78c82a245c0dc07bdd68ab49121a222c",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/jei-1.21.1-neoforge-19.51.0.418.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/jei-1.21.1-neoforge-19.51.0.418.jar",
       "optional": false,
       "name": "Just Enough Items",
       "modIds": [
@@ -2289,7 +2289,7 @@
       "file": "justenoughbreeding-neoforge-1.21.1-3.2.1.jar",
       "size": 593705,
       "sha256": "0c79081af07c4f556feda06047a8ca801af6e979b468d14c74ec88a5d2529f19",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/justenoughbreeding-neoforge-1.21.1-3.2.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/justenoughbreeding-neoforge-1.21.1-3.2.1.jar",
       "optional": false,
       "name": "Just Enough Breeding",
       "modIds": [
@@ -2300,7 +2300,7 @@
       "file": "justzoom_neoforge_3.0.0_MC_1.21.1.jar",
       "size": 152466,
       "sha256": "a4a51f46d25a141372af95bde48fa58209c38a9bd5883543ff1811532e9e9aa6",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/justzoom_neoforge_3.0.0_MC_1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/justzoom_neoforge_3.0.0_MC_1.21.1.jar",
       "optional": false,
       "name": "Just Zoom",
       "modIds": [
@@ -2311,7 +2311,7 @@
       "file": "konkrete_neoforge_1.9.9_MC_1.21.jar",
       "size": 618842,
       "sha256": "791c5538751dd3015ef3a2ce92d98719e1a28a48ebbd817b78506771256654cd",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/konkrete_neoforge_1.9.9_MC_1.21.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/konkrete_neoforge_1.9.9_MC_1.21.jar",
       "optional": false,
       "name": "Konkrete",
       "modIds": [
@@ -2322,7 +2322,7 @@
       "file": "kotlinforforge-5.12.0-all.jar",
       "size": 7279276,
       "sha256": "095aed94f21b4e55895b21ea957750ae3ab829fbcfc6d3c66a3489f5f1128d46",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/kotlinforforge-5.12.0-all.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/kotlinforforge-5.12.0-all.jar",
       "optional": false,
       "name": "Kotlin for Forge language provider",
       "modIds": []
@@ -2331,7 +2331,7 @@
       "file": "leaky-1.21-3.4.jar",
       "size": 40009,
       "sha256": "a139f49435c7f57a76b47fa6c5138200186f9b96fe3a0ed4be75be0bf0065334",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/leaky-1.21-3.4.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/leaky-1.21-3.4.jar",
       "optional": false,
       "name": "leaky mod",
       "modIds": [
@@ -2342,7 +2342,7 @@
       "file": "lithium-neoforge-0.15.4+mc1.21.1.jar",
       "size": 774220,
       "sha256": "488f33216030c1cb0baa33e59de3d657d08d5795a6c2080c8c8bbbc133fc8757",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/lithium-neoforge-0.15.4%2Bmc1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/lithium-neoforge-0.15.4%2Bmc1.21.1.jar",
       "optional": false,
       "name": "Lithium",
       "modIds": [
@@ -2353,7 +2353,7 @@
       "file": "lithostitched-1.8.0+beta6-neoforge-21.1.jar",
       "size": 978169,
       "sha256": "df6ad6f061435fd1795bfe3af627e4cebb25b977b7cbbc088bbad0174109d571",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/lithostitched-1.8.0%2Bbeta6-neoforge-21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/lithostitched-1.8.0%2Bbeta6-neoforge-21.1.jar",
       "optional": false,
       "name": "Lithostitched",
       "modIds": [
@@ -2364,7 +2364,7 @@
       "file": "lmft-1.1.1+1.21.9-neoforge.jar",
       "size": 78624,
       "sha256": "932765aae037197e8acfe7a90d9e473b143e3e785655c24c02b30c7013cd4458",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/lmft-1.1.1%2B1.21.9-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/lmft-1.1.1%2B1.21.9-neoforge.jar",
       "optional": false,
       "name": "Load My F***ing Tags",
       "modIds": [
@@ -2375,7 +2375,7 @@
       "file": "locks_reforged-neoforge-1.21.1-1.7.5.jar",
       "size": 760911,
       "sha256": "f7fac9966163e46d8e923ab60f5d120c5bbb65d6dc6cd0489c0a0c2adb3c663e",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/locks_reforged-neoforge-1.21.1-1.7.5.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/locks_reforged-neoforge-1.21.1-1.7.5.jar",
       "optional": false,
       "name": "Locks",
       "modIds": [
@@ -2386,7 +2386,7 @@
       "file": "lootintegrations-1.21.1-4.7.jar",
       "size": 36966,
       "sha256": "1de9e6352f643f2850dce3e6b7aa8274902798a2243ea9e494fe13aabaa90d2c",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/lootintegrations-1.21.1-4.7.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/lootintegrations-1.21.1-4.7.jar",
       "optional": false,
       "name": "Lootintegrations mod",
       "modIds": [
@@ -2397,7 +2397,7 @@
       "file": "magitech-worldgen-compat-1.0.0.jar",
       "size": 4955,
       "sha256": "c69e02b9581b34302dc9d2064b082f49de161b847213cec29643a628ebbe17b3",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/magitech-worldgen-compat-1.0.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/magitech-worldgen-compat-1.0.0.jar",
       "optional": false,
       "name": "Magitech Worldgen Compatibility",
       "modIds": [
@@ -2408,7 +2408,7 @@
       "file": "mahoutsukai-1.21.1-v1.36.27.jar",
       "size": 5045082,
       "sha256": "1752d7dd6e56348cc4ba4253bb4cb9f8d25054da79b0e6c7389751588b73c5b9",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/mahoutsukai-1.21.1-v1.36.27.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/mahoutsukai-1.21.1-v1.36.27.jar",
       "optional": false,
       "name": "Mahou Tsukai",
       "modIds": [
@@ -2419,7 +2419,7 @@
       "file": "mcjtylib-1.21-9.0.21.jar",
       "size": 699982,
       "sha256": "b8eca900d4fe77a495c74137bd6be79c67281e5d7ae67ca55f59980c64960a0e",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/mcjtylib-1.21-9.0.21.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/mcjtylib-1.21-9.0.21.jar",
       "optional": false,
       "name": "McJtyLib",
       "modIds": [
@@ -2430,7 +2430,7 @@
       "file": "mechanical_botany-1.1.3+1.21.1-neoforged.jar",
       "size": 807129,
       "sha256": "b6959cbb275e1d381e33455487f9e54a8aa0d8c4408a37d50ee98eda59deaf48",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/mechanical_botany-1.1.3%2B1.21.1-neoforged.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/mechanical_botany-1.1.3%2B1.21.1-neoforged.jar",
       "optional": false,
       "name": "Create: Mechanical Botany",
       "modIds": [
@@ -2441,7 +2441,7 @@
       "file": "megacells-4.11.0.jar",
       "size": 1137276,
       "sha256": "4a89663cc913f5bc8fd00f1a7146a2ad4b45bb4dd8bca245a445a636044d4762",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/megacells-4.11.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/megacells-4.11.0.jar",
       "optional": false,
       "name": "MEGA Cells",
       "modIds": [
@@ -2452,7 +2452,7 @@
       "file": "mekanisticrouters-1.1.1.jar",
       "size": 248509,
       "sha256": "80b37927e5e80156893527107de7782d9597717779e90b29d1a3b9b22e31b92c",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/mekanisticrouters-1.1.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/mekanisticrouters-1.1.1.jar",
       "optional": false,
       "name": "Mekanistic Routers",
       "modIds": [
@@ -2463,7 +2463,7 @@
       "file": "mekenergistics-3.0.8.jar",
       "size": 2254434,
       "sha256": "92d9fecd47c001880c283f9dc1956d793f9717ee7cc076b263f2eed2174114b1",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/mekenergistics-3.0.8.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/mekenergistics-3.0.8.jar",
       "optional": false,
       "name": "Mek Energistics",
       "modIds": [
@@ -2474,7 +2474,7 @@
       "file": "melody_neoforge_1.0.10_MC_1.21.jar",
       "size": 36096,
       "sha256": "6b973a4564703c531fc0eae09db08b07a38091e0a743c687b8d2049457e84871",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/melody_neoforge_1.0.10_MC_1.21.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/melody_neoforge_1.0.10_MC_1.21.jar",
       "optional": false,
       "name": "Melody",
       "modIds": [
@@ -2485,7 +2485,7 @@
       "file": "mielon's-the-sift-1.1.2-mc1.21.1-neo.jar",
       "size": 14052090,
       "sha256": "c711c2836243f759a3040b223aa6326aeed9cdeb67cbcafe924edd5fa4f937ae",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/mielon.s-the-sift-1.1.2-mc1.21.1-neo.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/mielon.s-the-sift-1.1.2-mc1.21.1-neo.jar",
       "optional": false,
       "name": "Mielon's The Sift",
       "modIds": [
@@ -2496,7 +2496,7 @@
       "file": "mob_grinding_utils-1.1.10+mc1.21.1.jar",
       "size": 1370085,
       "sha256": "9781e7a5cffc53a9b2879160aef0d39a7e416d7f4b5805240ca03eaff5f4ed06",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/mob_grinding_utils-1.1.10%2Bmc1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/mob_grinding_utils-1.1.10%2Bmc1.21.1.jar",
       "optional": false,
       "name": "Mob Grinding Utils",
       "modIds": [
@@ -2507,7 +2507,7 @@
       "file": "modernfix-neoforge-5.27.24+mc1.21.1.jar",
       "size": 604333,
       "sha256": "e6e9446890f0feb3aab3f6e73ae18cb17575c370f232179fef7baa30e61538fe",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/modernfix-neoforge-5.27.24%2Bmc1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/modernfix-neoforge-5.27.24%2Bmc1.21.1.jar",
       "optional": false,
       "name": "ModernFix",
       "modIds": [
@@ -2518,7 +2518,7 @@
       "file": "modular-routers-13.2.7+mc1.21.1.jar",
       "size": 1285765,
       "sha256": "10f84e7f2d1bc7b655d8398d8c2e7146c4929c3ad2c97408f940ca86c1bf898c",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/modular-routers-13.2.7%2Bmc1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/modular-routers-13.2.7%2Bmc1.21.1.jar",
       "optional": false,
       "name": "Modular Routers",
       "modIds": [
@@ -2529,7 +2529,7 @@
       "file": "moonlight-1.21.1-3.6.3-neoforge.jar",
       "size": 2226437,
       "sha256": "1b0e1c5ed5774d8e1e80b294e3f63953f962aba74f6df4ea8422d65007c64201",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/moonlight-1.21.1-3.6.3-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/moonlight-1.21.1-3.6.3-neoforge.jar",
       "optional": false,
       "name": "Moonlight Lib",
       "modIds": [
@@ -2540,7 +2540,7 @@
       "file": "moreslabsstairsandwalls-4.2.0.jar",
       "size": 4716804,
       "sha256": "c5543fc3e9a65fed6f8a91d9819cb57cd99b8ba1120e45c3738a46afa2df093d",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/moreslabsstairsandwalls-4.2.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/moreslabsstairsandwalls-4.2.0.jar",
       "optional": false,
       "name": "More Slabs Stairs & Walls",
       "modIds": [
@@ -2551,7 +2551,7 @@
       "file": "neruina-3.3.3+1.21.1-neoforge.jar",
       "size": 852705,
       "sha256": "6afd49ea130feaf337a39b12a936c61950da77ca59061d286b3dae67e5a2728e",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/neruina-3.3.3%2B1.21.1-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/neruina-3.3.3%2B1.21.1-neoforge.jar",
       "optional": false,
       "name": "Neruina",
       "modIds": [
@@ -2562,7 +2562,7 @@
       "file": "netherportalfix-neoforge-1.21.1-21.1.1.jar",
       "size": 211972,
       "sha256": "c1077de0c7f1ff5289d1852e0674d9c477247d4318c9809b21c60e56a31ae31a",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/netherportalfix-neoforge-1.21.1-21.1.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/netherportalfix-neoforge-1.21.1-21.1.1.jar",
       "optional": false,
       "name": "NetherPortalFix",
       "modIds": [
@@ -2573,7 +2573,7 @@
       "file": "not_enough_glyphs-1.21.1-4.6.2.jar",
       "size": 637382,
       "sha256": "efd90f8ed292fd1b6b08fc33330f4344b70ed1661ffbe3684a64b1b485856c12",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/not_enough_glyphs-1.21.1-4.6.2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/not_enough_glyphs-1.21.1-4.6.2.jar",
       "optional": false,
       "name": "Not Enough Glyphs",
       "modIds": [
@@ -2584,7 +2584,7 @@
       "file": "notenoughanimations-neoforge-1.12.4-mc1.21.1.jar",
       "size": 1939625,
       "sha256": "a8705202193813de291195ad6bbd03101c4ddc1ab2878aadb018ab92f903999f",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/notenoughanimations-neoforge-1.12.4-mc1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/notenoughanimations-neoforge-1.12.4-mc1.21.1.jar",
       "optional": false,
       "name": "NotEnoughAnimations",
       "modIds": [
@@ -2595,7 +2595,7 @@
       "file": "open-parties-and-claims-neoforge-1.21.1-0.30.3.jar",
       "size": 1821784,
       "sha256": "588e0053178386d6cd02b331e60e34c70696e6ca6aae2b3643739d6c1c460468",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/open-parties-and-claims-neoforge-1.21.1-0.30.3.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/open-parties-and-claims-neoforge-1.21.1-0.30.3.jar",
       "optional": false,
       "name": "Open Parties and Claims",
       "modIds": [
@@ -2606,7 +2606,7 @@
       "file": "packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
       "size": 46623,
       "sha256": "2979a8a3f44e5d5df4f9f6315d18c220f3debf736bb8a2c2740acdfb13bd820f",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
       "optional": false,
       "name": "PacketFixer",
       "modIds": [
@@ -2617,7 +2617,7 @@
       "file": "personality-1.21.1-5.0.2.jar",
       "size": 317587,
       "sha256": "9c0fd81a32f60b8af933816d06f2cf58d53ce6433221b820ab0b90df686df248",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/personality-1.21.1-5.0.2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/personality-1.21.1-5.0.2.jar",
       "optional": false,
       "name": "Personality",
       "modIds": [
@@ -2628,7 +2628,7 @@
       "file": "petrochem-neoforge-1.21.1-1.3.2.jar",
       "size": 1970253,
       "sha256": "9b2b65eba815f48b0b65ea5002d5c9ba64472ce65b2f57e13a60d67db9e73a54",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/petrochem-neoforge-1.21.1-1.3.2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/petrochem-neoforge-1.21.1-1.3.2.jar",
       "optional": false,
       "name": "Petrochem",
       "modIds": [
@@ -2639,7 +2639,7 @@
       "file": "pipeorgans-0.8.2+1.21.1.jar",
       "size": 6593821,
       "sha256": "bf51565afb47d0c0d1fef3cced7c837eff18302740f472372845339f5f22d939",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/pipeorgans-0.8.2%2B1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/pipeorgans-0.8.2%2B1.21.1.jar",
       "optional": false,
       "name": "Create: Sound of Steam",
       "modIds": [
@@ -2650,7 +2650,7 @@
       "file": "pipez-neoforge-1.21.1-1.2.31.jar",
       "size": 456599,
       "sha256": "9b37e922443ea3452daeacbfba4bcf69de07692183c4ee09f1d1e82c9fc5cc5f",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/pipez-neoforge-1.21.1-1.2.31.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/pipez-neoforge-1.21.1-1.2.31.jar",
       "optional": false,
       "name": "Pipez",
       "modIds": [
@@ -2661,7 +2661,7 @@
       "file": "polymorph-neoforge-1.1.0+1.21.1.jar",
       "size": 174972,
       "sha256": "bec8118978adeb052de9c4eaf9a595830621d82515a764f32f9c8a4dd52ab94b",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/polymorph-neoforge-1.1.0%2B1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/polymorph-neoforge-1.1.0%2B1.21.1.jar",
       "optional": false,
       "name": "Polymorph",
       "modIds": [
@@ -2672,7 +2672,7 @@
       "file": "powergrid-mc1.21.1-0.6.1.jar",
       "size": 7965088,
       "sha256": "b2835c36af6794a963737c617b5f9dd6b41aba5078d418c88847193fbcf702e5",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/powergrid-mc1.21.1-0.6.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/powergrid-mc1.21.1-0.6.1.jar",
       "optional": false,
       "name": "Create: Power Grid",
       "modIds": [
@@ -2683,7 +2683,7 @@
       "file": "prickle-neoforge-1.21.1-21.1.11.jar",
       "size": 84812,
       "sha256": "ccf46c442ed3c7fe41ad056f0940560829ec4dd88360985dfacd78f4614eb167",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/prickle-neoforge-1.21.1-21.1.11.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/prickle-neoforge-1.21.1-21.1.11.jar",
       "optional": false,
       "name": "PrickleMC",
       "modIds": [
@@ -2694,7 +2694,7 @@
       "file": "productivebees-1.21.1-13.14.0.jar",
       "size": 5377508,
       "sha256": "2a7ecbcebb8bb91eca141261addfcdbc112f0be160b618ed47960c3b20ff0bf4",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/productivebees-1.21.1-13.14.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/productivebees-1.21.1-13.14.0.jar",
       "optional": false,
       "name": "Productive Bees",
       "modIds": [
@@ -2705,7 +2705,7 @@
       "file": "productivemetalworks-1.21.1-1.15.1.jar",
       "size": 3033210,
       "sha256": "100132424f9659b76fd1326a8f0068a58b91d6d94351d47484b5b9cee394e812",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/productivemetalworks-1.21.1-1.15.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/productivemetalworks-1.21.1-1.15.1.jar",
       "optional": false,
       "name": "Productive Metalworks",
       "modIds": [
@@ -2716,7 +2716,7 @@
       "file": "railways-0.3.0-beta.2+neoforge-mc1.21.1.jar",
       "size": 18728584,
       "sha256": "64b74ddad661deae1cfe7e8334cfa3d39bb8ef7b761f83595ba0476c4a9bb1d5",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/railways-0.3.0-beta.2%2Bneoforge-mc1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/railways-0.3.0-beta.2%2Bneoforge-mc1.21.1.jar",
       "optional": false,
       "name": "Create: Steam 'n' Rails 1.21.1",
       "modIds": [
@@ -2727,7 +2727,7 @@
       "file": "recipeessentials-1.21.1-4.7.jar",
       "size": 43983,
       "sha256": "d2ab36a95424654bede6fd7aedceefd05912fc12f6de3f8bb0db8b8b245b6f85",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/recipeessentials-1.21.1-4.7.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/recipeessentials-1.21.1-4.7.jar",
       "optional": false,
       "name": "recipeessentials mod",
       "modIds": [
@@ -2738,7 +2738,7 @@
       "file": "redirected-neoforge-1.0.0-1.21.1.jar",
       "size": 217587,
       "sha256": "bdaf4c3399b7436d3be7d79729d87ed707a964420dc58720e13fb2f4960c8b9e",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/redirected-neoforge-1.0.0-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/redirected-neoforge-1.0.0-1.21.1.jar",
       "optional": false,
       "name": "Redirected",
       "modIds": [
@@ -2749,7 +2749,7 @@
       "file": "reliable_recipes-neoforge-1.21.1-3.1.8.jar",
       "size": 129298,
       "sha256": "942794d210f0c883ee38d46a86dac540649f061a0f166dde3929a3ed97f1cb81",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/reliable_recipes-neoforge-1.21.1-3.1.8.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/reliable_recipes-neoforge-1.21.1-3.1.8.jar",
       "optional": false,
       "name": "Reliable Recipes",
       "modIds": [
@@ -2760,7 +2760,7 @@
       "file": "reliable_remover-neoforge-1.21.1-2.12.1.jar",
       "size": 137893,
       "sha256": "9d3d23f4c46c542daf88d2ecc785c7bec128cd80946d06024d02a14012a62dbb",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/reliable_remover-neoforge-1.21.1-2.12.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/reliable_remover-neoforge-1.21.1-2.12.1.jar",
       "optional": false,
       "name": "Reliable Remover",
       "modIds": [
@@ -2771,7 +2771,7 @@
       "file": "relics-1.21.1-0.12.8.jar",
       "size": 5007593,
       "sha256": "db6f436053fe717413389e55390a5f98103ccd91cca5fe469e090bdfaef70717",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/relics-1.21.1-0.12.8.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/relics-1.21.1-0.12.8.jar",
       "optional": false,
       "name": "Relics",
       "modIds": [
@@ -2782,7 +2782,7 @@
       "file": "resourcefullib-neoforge-1.21-3.0.12.jar",
       "size": 484332,
       "sha256": "5e36f2c69de008dc5795f730c84ab767688f15c810944b585485349a0c911261",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/resourcefullib-neoforge-1.21-3.0.12.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/resourcefullib-neoforge-1.21-3.0.12.jar",
       "optional": false,
       "name": "Resourceful Lib",
       "modIds": [
@@ -2793,7 +2793,7 @@
       "file": "rftoolsbase-1.21-6.0.11.jar",
       "size": 463973,
       "sha256": "5195ba530e6cf9ba61c9954a3297679e6d29aa1b6182e27ae14ea43463dd4b00",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/rftoolsbase-1.21-6.0.11.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/rftoolsbase-1.21-6.0.11.jar",
       "optional": false,
       "name": "RFToolsBase",
       "modIds": [
@@ -2804,7 +2804,7 @@
       "file": "rftoolsbuilder-1.21-7.0.7.jar",
       "size": 1054868,
       "sha256": "4ef28484d88923395c2359cf8772c1ec9757dbbf697e3abf5c9bdd1e837cc5b1",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/rftoolsbuilder-1.21-7.0.7.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/rftoolsbuilder-1.21-7.0.7.jar",
       "optional": false,
       "name": "RFToolsBuilder",
       "modIds": [
@@ -2815,7 +2815,7 @@
       "file": "roxy-1.21.1-NeoForge-0.3.3.jar",
       "size": 2498570,
       "sha256": "5076f56334d41f20aa1f8b4b21cf2dbd3f075c2af901e5168ca4f24c8a89e40b",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/roxy-1.21.1-NeoForge-0.3.3.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/roxy-1.21.1-NeoForge-0.3.3.jar",
       "optional": false,
       "name": "Roxy",
       "modIds": [
@@ -2826,7 +2826,7 @@
       "file": "rubberworks-neoforge-1.21.1-1.1.4.jar",
       "size": 259446,
       "sha256": "ee2b26eb732ca1dda1e1923e5766428b19c061ca6032cfd13825ff488c3dbb35",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/rubberworks-neoforge-1.21.1-1.1.4.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/rubberworks-neoforge-1.21.1-1.1.4.jar",
       "optional": false,
       "name": "Create: Rubberworks",
       "modIds": [
@@ -2837,7 +2837,7 @@
       "file": "serverbrowser-neoforge-1.4.2-1.21.1.jar",
       "size": 64763,
       "sha256": "02d92c1d60cb03844ec0b46f2c56c71439a60a511280638579470b39c2f8a49d",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/serverbrowser-neoforge-1.4.2-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/serverbrowser-neoforge-1.4.2-1.21.1.jar",
       "optional": false,
       "name": "ServerBrowser",
       "modIds": [
@@ -2848,7 +2848,7 @@
       "file": "skinlayers3d-neoforge-1.11.2-mc1.21.1.jar",
       "size": 1979027,
       "sha256": "21724b7f676696f8d3716142406440adba9e63fc6519eeadc2b7ee8aae64c760",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/skinlayers3d-neoforge-1.11.2-mc1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/skinlayers3d-neoforge-1.11.2-mc1.21.1.jar",
       "optional": false,
       "name": "3d-Skin-Layers",
       "modIds": [
@@ -2859,7 +2859,7 @@
       "file": "sliceanddice-4.3.3-neoforge.jar",
       "size": 1354014,
       "sha256": "f887f70d8a5892c0cffb4fcac59dd189c76aef64e2f2d4771743ca8721d6ee48",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/sliceanddice-4.3.3-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/sliceanddice-4.3.3-neoforge.jar",
       "optional": false,
       "name": "Create Slice & Dice",
       "modIds": [
@@ -2870,7 +2870,7 @@
       "file": "smarterfarmers-1.21-2.2.4-neoforge.jar",
       "size": 65924,
       "sha256": "96cd9c5cb6e358798de09c5de13a1201a01da680cad8ec5a0d5a309106293d13",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/smarterfarmers-1.21-2.2.4-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/smarterfarmers-1.21-2.2.4-neoforge.jar",
       "optional": false,
       "name": "Smarter Farmers",
       "modIds": [
@@ -2881,7 +2881,7 @@
       "file": "smoothchunk-1.21-4.1.jar",
       "size": 12852,
       "sha256": "a79f06eaffe7e5b834620da3c2cdad782aeaf4f1f207d03f8b0228a20bab65e3",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/smoothchunk-1.21-4.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/smoothchunk-1.21-4.1.jar",
       "optional": false,
       "name": "Smoothchunk mod",
       "modIds": [
@@ -2892,7 +2892,7 @@
       "file": "sodium-extra-neoforge-0.9.3+mc1.21.1.jar",
       "size": 465013,
       "sha256": "fa553bce38bad6fdd478841a270a79a31dc05f87d7892b1cf839850602ac9186",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/sodium-extra-neoforge-0.9.3%2Bmc1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/sodium-extra-neoforge-0.9.3%2Bmc1.21.1.jar",
       "optional": false,
       "name": "Sodium Extra",
       "modIds": [
@@ -2903,7 +2903,7 @@
       "file": "sodium-neoforge-0.8.13+mc1.21.1.jar",
       "size": 1292934,
       "sha256": "575d187b15328d7bddd8a9b1bee64333c22c14735f5780ec49eac0cd5503c08d",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/sodium-neoforge-0.8.13%2Bmc1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/sodium-neoforge-0.8.13%2Bmc1.21.1.jar",
       "optional": false,
       "name": "Sodium",
       "modIds": [
@@ -2914,7 +2914,7 @@
       "file": "someassemblyrequired-5.2.8.jar",
       "size": 451898,
       "sha256": "df9f369a544418ca51011c3291382cdb9ac7fd014b0d54cf433f5875035226ae",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/someassemblyrequired-5.2.8.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/someassemblyrequired-5.2.8.jar",
       "optional": false,
       "name": "Some Assembly Required",
       "modIds": [
@@ -2925,7 +2925,7 @@
       "file": "sophisticatedcore-1.21.1-1.5.5.2363.jar",
       "size": 1811070,
       "sha256": "a24fa6b250d6ea576016afaecdea5481fdf77159a7d94a0ce3f35be16e0d3520",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/sophisticatedcore-1.21.1-1.5.5.2363.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/sophisticatedcore-1.21.1-1.5.5.2363.jar",
       "optional": false,
       "name": "Sophisticated Core",
       "modIds": [
@@ -2936,7 +2936,7 @@
       "file": "sophisticatedstorage-1.21.1-1.6.1.2147.jar",
       "size": 1911712,
       "sha256": "bcc56ddc6c96d1a659997d8fcde4397eda81882aa37d4d9eafd409fbcb0e5475",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/sophisticatedstorage-1.21.1-1.6.1.2147.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/sophisticatedstorage-1.21.1-1.6.1.2147.jar",
       "optional": false,
       "name": "Sophisticated Storage",
       "modIds": [
@@ -2947,7 +2947,7 @@
       "file": "spearcore-1.21.1-neo-1.2.jar",
       "size": 291216,
       "sha256": "8d50302f6e2b14460dc5326a7b1de84740c29e646fc8b7584bd1090e028a0ef8",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/spearcore-1.21.1-neo-1.2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/spearcore-1.21.1-neo-1.2.jar",
       "optional": false,
       "name": "Spear Core",
       "modIds": [
@@ -2958,7 +2958,7 @@
       "file": "structureessentials-1.21.1-5.0.jar",
       "size": 60833,
       "sha256": "7ecb6c9d04e20a6803ba6e51dd226eaa289ba2c2c095248f3645222a8bfc1c8d",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/structureessentials-1.21.1-5.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/structureessentials-1.21.1-5.0.jar",
       "optional": false,
       "name": "Structure Essentials mod",
       "modIds": [
@@ -2969,7 +2969,7 @@
       "file": "struts-1.3.1.jar",
       "size": 216678,
       "sha256": "21002a8b6881a3d08da74f03f29ab23551db50d755d7e75b8b94847511d9a863",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/struts-1.3.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/struts-1.3.1.jar",
       "optional": false,
       "name": "Strut Your Stuff",
       "modIds": [
@@ -2980,7 +2980,7 @@
       "file": "supplementaries-1.21.1-3.9.8-neoforge.jar",
       "size": 13549986,
       "sha256": "748ec03afcbcf394539db1cdde6dd9d214667a18d10bedaca2df1bc3aaf9a299",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/supplementaries-1.21.1-3.9.8-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/supplementaries-1.21.1-3.9.8-neoforge.jar",
       "optional": false,
       "name": "Supplementaries",
       "modIds": [
@@ -2991,7 +2991,7 @@
       "file": "tectonic-3.0.28-neoforge-21.1.jar",
       "size": 451757,
       "sha256": "cf188c70e7dd94f6e3a81cef9fe99f1151f13217809f7576aaedb0c3e6547ae1",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/tectonic-3.0.28-neoforge-21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/tectonic-3.0.28-neoforge-21.1.jar",
       "optional": false,
       "name": "Tectonic",
       "modIds": [
@@ -3002,7 +3002,7 @@
       "file": "titanium-1.21-4.0.50.jar",
       "size": 607012,
       "sha256": "e2b5d14ba68ce366164d9a69e5eee434d22fac3373df33a2e977161ef5f69ec1",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/titanium-1.21-4.0.50.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/titanium-1.21-4.0.50.jar",
       "optional": false,
       "name": "Titanium",
       "modIds": [
@@ -3013,7 +3013,7 @@
       "file": "tradeworks-1.0.7.jar",
       "size": 1631621,
       "sha256": "661c1849e68ae5cb38c6e1871222067dc21858e9a966e3c61365596d3c9374da",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/tradeworks-1.0.7.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/tradeworks-1.0.7.jar",
       "optional": false,
       "name": "Create: Tradeworks",
       "modIds": [
@@ -3024,7 +3024,7 @@
       "file": "trading_floor-3.0.16.jar",
       "size": 214343,
       "sha256": "f0aacddb1f8f191f13b79c603e52bd49a6d1cb918078d8a3bdcb2621c88b8d40",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/trading_floor-3.0.16.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/trading_floor-3.0.16.jar",
       "optional": false,
       "name": "Create: Trading Floor",
       "modIds": [
@@ -3035,7 +3035,7 @@
       "file": "txnilib-neoforge-1.0.24-1.21.1.jar",
       "size": 6276522,
       "sha256": "411e811a6a53a63c2716dbf71cd1167e3a98d000b884458759d6192720be3e18",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/txnilib-neoforge-1.0.24-1.21.1.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/txnilib-neoforge-1.0.24-1.21.1.jar",
       "optional": false,
       "name": "TxniLib",
       "modIds": [
@@ -3046,7 +3046,7 @@
       "file": "voxy-0.2.16-beta+1.21.11.jar",
       "size": 12620254,
       "sha256": "7f8226cf64a4f5dc064e1075965714b718ac5f42fb28f826135a37c64e66e10b",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/voxy-0.2.16-beta%2B1.21.11.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/voxy-0.2.16-beta%2B1.21.11.jar",
       "optional": false,
       "name": "Voxy",
       "modIds": [
@@ -3057,7 +3057,7 @@
       "file": "voxy-server-side-neoforge.jar",
       "size": 13960461,
       "sha256": "a780f192500f72e7559cc2bad28fea0ec3c07d8dc20c08c2eb96d3d79f8ce06b",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/voxy-server-side-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/voxy-server-side-neoforge.jar",
       "optional": false,
       "name": "Voxy Server Side",
       "modIds": [
@@ -3068,7 +3068,7 @@
       "file": "watut-neoforge-1.21.0-1.2.7.jar",
       "size": 432269,
       "sha256": "b1aac4b9832e16439ee86f27814f7b6a42f2f6bea0ea6949dfffffcd0599d88c",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/watut-neoforge-1.21.0-1.2.7.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/watut-neoforge-1.21.0-1.2.7.jar",
       "optional": false,
       "name": "What Are They Up To",
       "modIds": [
@@ -3079,7 +3079,7 @@
       "file": "waystones-neoforge-1.21.1-21.1.46.jar",
       "size": 1223229,
       "sha256": "ca76a4457160e8353b1f013a21ab377b264141f466d84ec8952a123058b8af78",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/waystones-neoforge-1.21.1-21.1.46.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/waystones-neoforge-1.21.1-21.1.46.jar",
       "optional": false,
       "name": "Waystones",
       "modIds": [
@@ -3090,7 +3090,7 @@
       "file": "worldweaver-21.0.25.jar",
       "size": 2215098,
       "sha256": "6750a60983b22711cf14587d1e7a25c6327c9bec24952b4cbf5a26f40336ee1b",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/worldweaver-21.0.25.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/worldweaver-21.0.25.jar",
       "optional": false,
       "name": "WorldWeaver",
       "modIds": [
@@ -3101,7 +3101,7 @@
       "file": "wunderlib-21.0.10.jar",
       "size": 378820,
       "sha256": "b49c7a040f87ade1e3f73bd7335e8d68ff7a328919c192a6d2c022bae6786a2f",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/wunderlib-21.0.10.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/wunderlib-21.0.10.jar",
       "optional": false,
       "name": "WunderLib",
       "modIds": [
@@ -3112,7 +3112,7 @@
       "file": "xaerominimap-neoforge-1.21.1-26.4.2.jar",
       "size": 2185409,
       "sha256": "b722bcf794288f0ed51165cd1f057fc4505e20abbc723b2e17e900426e443603",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/xaerominimap-neoforge-1.21.1-26.4.2.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/xaerominimap-neoforge-1.21.1-26.4.2.jar",
       "optional": false,
       "name": "Xaero's Minimap",
       "modIds": [
@@ -3123,7 +3123,7 @@
       "file": "xaeroworldmap-neoforge-1.21.1-1.45.0.jar",
       "size": 1422531,
       "sha256": "d60899112e84616ba52a993c1722fd891872acc4779bfac34d9b170001451c6f",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/xaeroworldmap-neoforge-1.21.1-1.45.0.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/xaeroworldmap-neoforge-1.21.1-1.45.0.jar",
       "optional": false,
       "name": "Xaero's World Map",
       "modIds": [
@@ -3134,7 +3134,7 @@
       "file": "xnet-1.21-7.0.7.jar",
       "size": 611577,
       "sha256": "0f393a4bff91a90e0665ec6d66ff649e45f9c33311dc038e4a5df0b154ea9d80",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/xnet-1.21-7.0.7.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/xnet-1.21-7.0.7.jar",
       "optional": false,
       "name": "XNet",
       "modIds": [
@@ -3145,7 +3145,7 @@
       "file": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
       "size": 1118651,
       "sha256": "b5c30321b46cfaa521645a04aff89d2804d8167a25bb23ad4b1ae8da73093a2f",
-      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/yet_another_config_lib_v3-3.8.2%2B1.21.1-neoforge.jar",
+      "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/yet_another_config_lib_v3-3.8.2%2B1.21.1-neoforge.jar",
       "optional": false,
       "name": "YetAnotherConfigLib",
       "modIds": [
@@ -17554,7 +17554,7 @@
     "file": "Blacksite-Client-Files.zip",
     "size": 13441700,
     "sha256": "e05ee9bc67810a77759b022da7f30bd48a7bc77b9fb58f085ea5c0cd22b4e877",
-    "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/untagged-b1dba223c1db989c6835/Blacksite-Client-Files.zip"
+    "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.1.0/Blacksite-Client-Files.zip"
   },
   "removePrefixes": [
     "dirt_slabs-",
