@@ -1,12 +1,14 @@
 {
   "passed": true,
+  "version": "client-star-1.3.0",
   "anonymousGitHubBootstrap": true,
   "githubModsDownloaded": 6,
   "directAuthorOptimizationsDownloaded": 1,
   "directCreateNuclearDownloadVerified": true,
   "githubConfigArchiveDownloaded": true,
   "normalizedAssetNamesVerified": 4,
-  "all291ModHashesCorrect": true,
+  "allModHashesCorrect": true,
+  "modFilesVerified": 290,
   "noBackups": true,
   "personalWorldPreserved": true,
   "powerRequests": 0
