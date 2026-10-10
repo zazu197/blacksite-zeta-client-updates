@@ -1,0 +1,23 @@
+name: Verify client update
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python verify-manifest.py
+      - name: Parse the readable Windows PowerShell installer
+        shell: powershell
+        run: |
+          $text = [IO.File]::ReadAllText((Join-Path $pwd 'Install-Blacksite.bat'))
+          $index = $text.IndexOf(([char]10+'# POWERSHELL START'))
+          if ($index -lt 0) { throw 'Missing PowerShell section' }
+          $tokens = $null; $errors = $null
+          [void][Management.Automation.Language.Parser]::ParseInput($text.Substring($index+1),[ref]$tokens,[ref]$errors)
+          if ($errors.Count) { $errors | Format-List; throw 'Invalid updater syntax' }
+          Write-Host 'Readable Windows PowerShell section parsed successfully.'

@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "checks": [
+    "Readable BAT executes in Windows PowerShell",
+    "Only missing/corrupt mods and needed config archive downloaded",
+    "All 286 required and four selected performance mod hashes correct",
+    "Old mod version detected by real mod identity despite renamed JAR",
+    "Explicitly removed and superseded mods deleted",
+    "Unrelated Create addon preserved",
+    "Personal options and saves preserved",
+    "Personal optional config preserved",
+    "Recent Mekanism multiplier installed",
+    "Complete recent quest update installed",
+    "Performance compatibility exceptions merged without resetting personal settings",
+    "No backup folder created",
+    "Repeated full scan downloads nothing when current",
+    "Repeated update is idempotent",
+    "Bad download rejected by SHA256",
+    "Failed download changes no profile files",
+    "Unsafe manifest path rejected",
+    "Empty named NeoForge profile discovered through custom CurseForge folder",
+    "Fresh profile downloads complete mod list",
+    "Fresh install verifies every required and optimization mod",
+    "Fresh install receives quest book and Electric Blaze instructions",
+    "Fresh install creates no backups"
+  ],
+  "downloadsUseRealHTTP": true,
+  "powershell": "Windows PowerShell 5.1",
+  "modFilesVerified": 290,
+  "liveServerWrites": 0
+}

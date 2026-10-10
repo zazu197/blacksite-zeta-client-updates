@@ -1,0 +1,11 @@
+ELECTRIC BLAZE HEATERS - SUPERHEATING
+
+1. Right-click a normal Blaze Burner with one Blaze Capacitor to make an Electric Blaze Heater.
+2. Right-click that electric heater with a SECOND Blaze Capacitor. Two capacitors enable superheating.
+3. Connect an FE energy cable and supply at least 1,063 FE/t continuously with the pack defaults.
+4. Remove any redstone signal: redstone disables the heater.
+Two powered capacitors produce the blue SEETHING heat used by Create superheated recipes.
+One capacitor uses 505 FE/t and produces ordinary KINDLED heat. No Blaze Cakes are needed.
+There is no new addon or server restart needed for this existing feature.
+
+Source: https://www.curseforge.com/minecraft/mc-mods/create-electric-blaze

@@ -3,3 +3,5 @@
 /__pycache__/
 /upload.log
 /build-local-report.json
+/*.zip
+/*.zip.sha256
