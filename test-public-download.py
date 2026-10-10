@@ -20,5 +20,5 @@ assert all(hashlib.sha256((p/'mods'/x['file']).read_bytes()).hexdigest()==x['sha
 assert 'maxUpgradeMultiplier = 16' in (p/'config/Mekanism/general.toml').read_text()
 assert not (p/'.blacksite-backups').exists()
 assert (p/'saves/my-world/level.dat').read_bytes()==b'my world'
-report={'passed':True,'anonymousGitHubBootstrap':True,'githubModsDownloaded':6,'directAuthorOptimizationsDownloaded':1,'directCreateNuclearDownloadVerified':True,'githubConfigArchiveDownloaded':True,'normalizedAssetNamesVerified':4,'all291ModHashesCorrect':True,'noBackups':True,'personalWorldPreserved':True,'powerRequests':0}
+report={'passed':True,'version':m['version'],'anonymousGitHubBootstrap':True,'githubModsDownloaded':6,'directAuthorOptimizationsDownloaded':1,'directCreateNuclearDownloadVerified':True,'githubConfigArchiveDownloaded':True,'normalizedAssetNamesVerified':4,'allModHashesCorrect':True,'modFilesVerified':len(m['mods']),'noBackups':True,'personalWorldPreserved':True,'powerRequests':0}
 (out/'public-download-verification.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report),flush=True)

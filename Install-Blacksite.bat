@@ -133,6 +133,20 @@ function Find-BlacksiteProfile {
 }
 function Test-Config([string]$Path,$File) {
     if ($File.policy -eq 'ifMissing') { return Test-Path -LiteralPath $Path -PathType Leaf }
+    if ($File.policy -eq 'mergeJsonValues' -and (Test-Path -LiteralPath $Path)) {
+        try { $existing=[IO.File]::ReadAllText($Path) | ConvertFrom-Json
+            foreach ($key in $File.requiredValues.PSObject.Properties.Name) { if ($existing.$key -cne $File.requiredValues.$key) { return $false } }
+            return $true
+        } catch { return $false }
+    }
+    if ($File.policy -eq 'mergeTomlSettings' -and (Test-Path -LiteralPath $Path)) {
+        $text=[IO.File]::ReadAllText($Path)
+        foreach ($key in $File.requiredValues.PSObject.Properties.Name) {
+            $matches=[regex]::Matches($text,('(?m)^\s*'+[regex]::Escape($key)+'\s*=\s*'+[regex]::Escape([string]$File.requiredValues.$key)+'\s*(?:#.*)?$'))
+            if ($matches.Count -ne 1) { return $false }
+        }
+        return $true
+    }
     if ($File.policy -eq 'mergeJsonArrays' -and (Test-Path -LiteralPath $Path)) {
         try {
             $existing=[IO.File]::ReadAllText($Path) | ConvertFrom-Json
@@ -155,7 +169,7 @@ try {
     if ($env:BLACKSITE_TEST_MODE -eq '1' -and $env:BLACKSITE_TEST_MANIFEST) { Copy-Item -LiteralPath $env:BLACKSITE_TEST_MANIFEST -Destination $manifestPath }
     else { Download-File $env:BLACKSITE_MANIFEST_URL $manifestPath }
     $manifest=[IO.File]::ReadAllText($manifestPath) | ConvertFrom-Json
-    if ($manifest.schemaVersion -ne 1 -or $manifest.minimumInstallerVersion -gt 1 -or $manifest.minecraft -ne '1.21.1' -or $manifest.neoforge -ne '21.1.250') { throw 'This release requires a different installer or loader.' }
+    if ($manifest.schemaVersion -ne 1 -or $manifest.minimumInstallerVersion -gt 2 -or $manifest.minecraft -ne '1.21.1' -or $manifest.neoforge -ne '21.1.250') { throw 'Download the latest Install-Blacksite.bat from the client-update repository; this release requires a newer installer or loader.' }
     $taskMods=Join-Path $taskProfile 'mods'; $operations=[Collections.Generic.List[object]]::new(); $expectedIds=@{}; $expectedFiles=@{}; $paths=@{}
     $selected=@($manifest.mods | Where-Object { -not $_.optional -or $env:BLACKSITE_OPTIMIZATIONS -ne '0' })
     Write-Host "Checking every required mod ($($selected.Count) files including selected optimizations)..."
@@ -176,7 +190,7 @@ try {
     $configChanges=[Collections.Generic.List[object]]::new()
     foreach ($file in $manifest.files) {
         if ($file.optional -and $env:BLACKSITE_OPTIMIZATIONS -eq '0') { continue }
-        if ($file.path -notmatch '^(config|defaultconfigs|kubejs|resourcepacks|shaderpacks|configureddefaults|blacksite-guides)/' -or $file.policy -notin @('replace','ifMissing','mergeJsonArrays') -or $file.sha256 -notmatch '^[a-f0-9]{64}$' -or $file.size -lt 0) { throw 'Invalid configuration manifest.' }
+        if ($file.path -notmatch '^(config|defaultconfigs|kubejs|resourcepacks|shaderpacks|configureddefaults|blacksite-guides)/' -or $file.policy -notin @('replace','ifMissing','mergeJsonArrays','mergeJsonValues','mergeTomlSettings') -or $file.sha256 -notmatch '^[a-f0-9]{64}$' -or $file.size -lt 0) { throw 'Invalid configuration manifest.' }
         $target=Get-SafeChild $taskProfile $file.path
         if ($paths.ContainsKey($target)) { throw 'Duplicate client file path.' }; $paths[$target]=$true
         if (-not (Test-Config $target $file)) { $configChanges.Add(@{File=$file;Target=$target}) }
@@ -196,6 +210,20 @@ try {
                 $inputStream=$entry.Open(); $outputStream=[IO.File]::Create($source)
                 try { $inputStream.CopyTo($outputStream) } finally { $inputStream.Dispose();$outputStream.Dispose() }
                 if (-not (Test-Bytes $source $op.File)) { throw "Client-file checksum failed: $($op.File.path). No profile files changed." }
+                if ($op.File.policy -eq 'mergeJsonValues' -and (Test-Path -LiteralPath $op.Target)) {
+                    $existing=[IO.File]::ReadAllText($op.Target) | ConvertFrom-Json
+                    foreach ($key in $op.File.requiredValues.PSObject.Properties.Name) { $existing | Add-Member -NotePropertyName $key -NotePropertyValue $op.File.requiredValues.$key -Force }
+                    [IO.File]::WriteAllText($source,($existing | ConvertTo-Json -Depth 30),[Text.UTF8Encoding]::new($false))
+                }
+                if ($op.File.policy -eq 'mergeTomlSettings' -and (Test-Path -LiteralPath $op.Target)) {
+                    $text=[IO.File]::ReadAllText($op.Target)
+                    foreach ($key in $op.File.requiredValues.PSObject.Properties.Name) {
+                        $pattern='(?m)^(\s*'+[regex]::Escape($key)+'\s*=\s*)[^\r\n#]+(\s*(?:#.*)?)$'
+                        if ([regex]::Matches($text,$pattern).Count -ne 1) { throw "Expected exactly one TOML setting: $key" }
+                        $text=[regex]::Replace($text,$pattern,('${1}'+[string]$op.File.requiredValues.$key+'${2}'))
+                    }
+                    [IO.File]::WriteAllText($source,$text,[Text.UTF8Encoding]::new($false))
+                }
                 if ($op.File.policy -eq 'mergeJsonArrays' -and (Test-Path -LiteralPath $op.Target)) {
                     $existing=[IO.File]::ReadAllText($op.Target) | ConvertFrom-Json; $required=[IO.File]::ReadAllText($source) | ConvertFrom-Json
                     foreach ($key in $op.File.mergeKeys) {

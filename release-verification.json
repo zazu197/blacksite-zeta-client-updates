@@ -1,8 +1,9 @@
 {
   "passed": true,
-  "verifiedReleaseAssets": 294,
+  "verifiedReleaseAssets": 292,
   "allGithubDigestsMatch": true,
-  "releaseId": 408467328,
-  "releaseUrl": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/tag/client-star-1.1.0",
-  "draft": false
+  "releaseId": 408851868,
+  "releaseUrl": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/tag/client-star-1.3.0",
+  "draft": false,
+  "authorCreateNuclearDownload": true
 }

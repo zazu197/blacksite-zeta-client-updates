@@ -3,12 +3,15 @@
   "checks": [
     "Readable BAT executes in Windows PowerShell",
     "Only missing/corrupt mods and needed config archive downloaded",
-    "All 287 required and four selected performance mod hashes correct",
+    "All 286 required and four selected performance mod hashes correct",
     "Old mod version detected by real mod identity despite renamed JAR",
     "Explicitly removed and superseded mods deleted",
     "Unrelated Create addon preserved",
     "Personal options and saves preserved",
     "Personal optional config preserved",
+    "Voxy terrain collection enabled without overwriting personal preferences",
+    "Only Create RPM setting changed in existing configuration",
+    "Crashing Create Better FPS removed and not reinstalled",
     "Recent Mekanism multiplier installed",
     "Complete recent quest update installed",
     "Performance compatibility exceptions merged without resetting personal settings",
@@ -26,6 +29,6 @@
   ],
   "downloadsUseRealHTTP": true,
   "powershell": "Windows PowerShell 5.1",
-  "modFilesVerified": 291,
+  "modFilesVerified": 290,
   "liveServerWrites": 0
 }

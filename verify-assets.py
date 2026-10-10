@@ -6,7 +6,8 @@ for tag in ['client-star-1.1.0',manifest['version']]:
 release=releases[manifest['version']];checks=[]
 expected=[{'name':m['url'].rsplit('/',1)[1],'tag':m['url'].split('/download/')[1].split('/')[0],'size':m['size'],'sha256':m['sha256']} for m in manifest['mods'] if not m['optional'] and not m.get('authorDownload')]
 expected.append({'name':manifest['configArchive']['file'],'tag':manifest['version'],'size':manifest['configArchive']['size'],'sha256':manifest['configArchive']['sha256']})
-for name in ['Install-Blacksite.bat','client-manifest.json','MODS.md','README.md','Blacksite-Complete-Client-Star-1.2.0.zip','Blacksite-Complete-Client-Star-1.2.0.zip.sha256']:
+full='Blacksite-Complete-Client-Star-'+manifest['version'].removeprefix('client-star-')+'.zip'
+for name in ['Install-Blacksite.bat','client-manifest.json','MODS.md','README.md',full,full+'.sha256']:
  p=out/name;expected.append({'name':name,'tag':manifest['version'],'size':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})
 names=json.loads((out/'release-asset-names.json').read_text())
 for e in expected:

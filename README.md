@@ -1,37 +1,27 @@
 # Blacksite Zeta client updates
 
-Minecraft **1.21.1**, NeoForge **21.1.250**, Java **21**.
+Minecraft **1.21.1**, NeoForge **21.1.250**, Java **21**. The cumulative server update is active.
 
-Download [Install-Blacksite.bat](https://raw.githubusercontent.com/zazu197/blacksite-zeta-client-updates/main/Install-Blacksite.bat), close Minecraft, and double-click it. If the browser displays the code, use **Save as** and keep the `.bat` extension. The updater identifies your CurseForge Blacksite/Magitech profile from the standard or custom Minecraft folder. If several profiles match, it asks you to choose one. You can also drag a profile folder onto the BAT or pass its full path as the first argument.
+Download [Install-Blacksite.bat](https://raw.githubusercontent.com/zazu197/blacksite-zeta-client-updates/main/Install-Blacksite.bat), close Minecraft and double-click it. Save the page as a `.bat` if your browser displays its code. It finds the Blacksite/Magitech CurseForge profile in standard or custom folders. If several match, choose one. You can also drag the profile folder onto the BAT.
 
-The matching server additions remain **staged**. Do not launch the updated profile against the older server until the owner activates the matching update. This repository does not restart or change the Minecraft server.
+The readable installer checks all **286 required mods** by filename, size and SHA-256. It downloads missing or wrong files, removes known superseded mods, and applies all required configs, datapacks, resources and quests. Four optional performance mods are downloaded directly from their authors. Set `BLACKSITE_OPTIMIZATIONS=0` to skip them. Download this latest BAT for installer version 2; then rerun it whenever you want to update or repair the pack.
 
-## What the updater does
+**No backups are created.** Saves, maps, personal controls, shader selections and unrelated mods are preserved. Voxy preferences and other Create settings are preserved while the necessary fixes are merged. Downloads pass validation before profile writes begin. If installation is interrupted, rerun the BAT.
 
-- Fetches the current [complete mod manifest](client-manifest.json) on every run.
-- Checks all **287 required mod JARs** by filename, file size and SHA-256. Downloads only missing or incorrect files from versioned GitHub release assets or the pinned original author download.
-- Installs four tested optional client optimizations directly from their authors: Entity Culling, More Culling, Particle Core and Fzzy Config. Change `BLACKSITE_OPTIMIZATIONS=1` to `0` in the readable BAT to skip these downloads.
-- Replaces known outdated versions by their mod identity and precise filename prefixes. Removes Dirt Slabs and superseded Blacksite Effects/Platform files.
-- Applies required configs, datapacks and quest definitions. Copies other resources/configs only when missing. Merges Entity Culling compatibility exceptions into your existing settings.
-- Verifies downloads before changing the profile. Leaves saves, screenshots, maps, controls, shader selections and unrelated mods alone.
-- **Creates no backups.** If writing fails after installation starts, rerun it to repair the update.
+## Cumulative changes
 
-No administrator privileges, GitHub login, CurseForge API key, account access, encoded commands or GoFile link are needed. All code is visible in [Install-Blacksite.bat](Install-Blacksite.bat). Minecraft, Java and NeoForge come from your launcher; the updater does not install those runtimes.
+Includes every requested addition from the Mekanism/Platform update through Create Nuclear 2.0.0: multiplier 16, expanded Chemical upgrades, reusable forcefield/factory GUI, new content mods and dependencies, Construction Sticks, Double Slabs, and 91 new Blacksite Star quests. Existing quest IDs/progress remain valid; Stone Slabs replace the removed Dirt Slabs task. See [MODS.md](MODS.md) for the full mod list and the manifest for exact versions and checksums.
 
-## Included changes
+Create Better FPS is removed after the observed Create belt registration crash. Create supports **512 RPM** through Rotation Speed Controllers. Voxy local terrain collection is enabled, including the mining dimension. Server LOD support sends existing terrain only.
 
-The manifest includes the full client pack, every pending addition since Blacksite Platform 1.4.0, the Mekanism multiplier of 16, expanded Chemical upgrades, the reusable forcefield/factory GUI, all 23 requested content additions and their dependencies, Construction Sticks and Double Slabs, and 91 new quests across 10 chapters. The Blacksite Star is a nine-component endgame trophy. Existing quest IDs/progress are retained; the former Dirt Slabs task accepts Stone Slabs.
+New ores require **newly generated chunks**. Existing chunks are preserved. Overworld ores stay in the mining dimension's Overworld layer (Y 68-244), with Nether/End ores in their matching layers. Create Nuclear retains its native Overworld ores too.
 
-See [MODS.md](MODS.md) for every required and optional mod, exact versions/filenames and download checksums in the manifest. Mod authors retain their licenses and ownership; license files remain inside their JARs. Optional performance mods are downloaded from the authors rather than redistributed here. Double Slabs source: https://github.com/CJMinecraft01/DoubleSlabs.
+## Complete ZIP
 
-## Electric Blaze superheating
+The [latest release](https://github.com/zazu197/blacksite-zeta-client-updates/releases/tag/client-star-1.3.0) also includes the full CurseForge-importable ZIP: 285 bundled required JARs, configs, resources, quests and recipes. CurseForge or the BAT downloads Create Nuclear from its original author. Optional optimizations are fetched by the BAT. Your launcher supplies Minecraft, NeoForge and Java.
 
-The installed Create: Electric Blaze 1.0.0 already supports this. Use one Blaze Capacitor on a normal Blaze Burner to electrify it, then apply a **second capacitor** to the electric heater. Supply at least **1,063 FE/t continuously** with the pack defaults, and remove any redstone signal. Two powered capacitors reach the blue `SEETHING` state for superheated Create recipes; one uses 505 FE/t for `KINDLED` heat. No new mod, Blaze Cake or server restart is required. Full instructions: [Electric-Blaze-Heaters.txt](Electric-Blaze-Heaters.txt). [Author's instructions](https://www.curseforge.com/minecraft/mc-mods/create-electric-blaze).
+## Electric Blaze superheat
 
-## Distribution
+Apply a second Blaze Capacitor to an electric heater, supply at least **1,063 FE/t** continuously and remove redstone signals. This reaches blue SEETHING heat without another mod. See [Electric-Blaze-Heaters.txt](Electric-Blaze-Heaters.txt) and the [author's instructions](https://www.curseforge.com/minecraft/mc-mods/create-electric-blaze).
 
-Large client files live in [GitHub Releases](https://github.com/zazu197/blacksite-zeta-client-updates/releases), while this Git repository contains only readable code, manifests, documentation and verification reports. The private website/server repository stays private. The owner can publish another release and update `client-manifest.json`; players rerun the same BAT to check the complete pack again.
-
-## Create Nuclear 2.0.0
-
-The updater downloads this required mod directly from its original CurseForge file. Its four ore families also generate in newly generated chunks in the mining dimension's Overworld layer (Y 68–244), with native Overworld generation retained. Existing chunks are not regenerated.
+Large files use versioned GitHub Releases. This public repository contains only player updater code, manifests, documentation and verification reports. The website/server repository remains private. Mod authors retain ownership and licenses; license files remain in the JARs. Create Nuclear and optional optimizations use original author downloads. Double Slabs source: https://github.com/CJMinecraft01/DoubleSlabs.

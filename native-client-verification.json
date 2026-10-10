@@ -1,0 +1,20 @@
+{
+  "error": "",
+  "passed": true,
+  "checks": [
+    "Create Better FPS absent",
+    "Create Nuclear loaded and multiplayer connection succeeded",
+    "Client received Create maximum RPM 512",
+    "Voxy local terrain collection enabled",
+    "Voxy Overworld identity exists",
+    "Entered mining dimension",
+    "Mining dimension uses a distinct Voxy world identity",
+    "Voxy mining identity matches dimension registry key",
+    "Voxy mining WorldEngine exists",
+    "Mining surface terrain stored in Voxy",
+    "Mining terrain contains nonempty voxel data",
+    "Returned to Overworld",
+    "Overworld identity preserved after dimension round trip",
+    "Client remains connected without a startup/render crash"
+  ]
+}
