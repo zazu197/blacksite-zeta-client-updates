@@ -179,7 +179,7 @@ try {
     if ($env:BLACKSITE_TEST_MODE -eq '1' -and $env:BLACKSITE_TEST_MANIFEST) { Copy-Item -LiteralPath $env:BLACKSITE_TEST_MANIFEST -Destination $manifestPath }
     else { Download-File $env:BLACKSITE_MANIFEST_URL $manifestPath }
     $manifest=[IO.File]::ReadAllText($manifestPath) | ConvertFrom-Json
-    if ($manifest.schemaVersion -ne 1 -or $manifest.minimumInstallerVersion -gt 3 -or $manifest.minecraft -ne '1.21.1' -or $manifest.neoforge -ne '21.1.250') { throw 'Download the latest Install-Blacksite.bat from the client-update repository; this release requires a newer installer or loader.' }
+    if ($manifest.schemaVersion -ne 1 -or $manifest.minimumInstallerVersion -gt 4 -or $manifest.minecraft -ne '1.21.1' -or $manifest.neoforge -ne '21.1.250') { throw 'Download the latest Install-Blacksite.bat from the client-update repository; this release requires a newer installer or loader.' }
     $taskMods=Join-Path $taskProfile 'mods'; $operations=[Collections.Generic.List[object]]::new(); $expectedIds=@{}; $expectedFiles=@{}; $paths=@{}
     $selected=@($manifest.mods | Where-Object { -not $_.optional -or $env:BLACKSITE_OPTIMIZATIONS -ne '0' })
     Write-Host "Checking every required mod ($($selected.Count) files including selected optimizations)..."
@@ -249,14 +249,21 @@ try {
     }
     # Identify only known superseded/removed pack JARs; unrelated player mods stay.
     $remove=[Collections.Generic.List[string]]::new()
+    $retiredNames=[Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
+    function Test-RetiredModName([string]$Name) {
+        $nameWithoutDisabled=$Name -replace '\.disabled$',''
+        if ($expectedFiles.ContainsKey($nameWithoutDisabled)) { return $false }
+        foreach ($prefix in $manifest.removePrefixes) { if ($nameWithoutDisabled.StartsWith($prefix,[StringComparison]::OrdinalIgnoreCase) -and @($manifest.keepFiles) -notcontains $nameWithoutDisabled) { return $true } }
+        foreach ($rule in $manifest.modPrefixes) { if ($expectedFiles.ContainsKey($rule.file) -and $nameWithoutDisabled -match ('^'+[regex]::Escape($rule.prefix)+'[0-9]')) { return $true } }
+        return $false
+    }
     if (Test-Path -LiteralPath $taskMods) {
-        foreach ($jar in Get-ChildItem -LiteralPath $taskMods -Filter '*.jar' -File) {
-            if ($expectedFiles.ContainsKey($jar.Name)) { continue }
-            $obsolete=$false
-            foreach ($prefix in $manifest.removePrefixes) { if ($jar.Name.StartsWith($prefix,[StringComparison]::OrdinalIgnoreCase) -and @($manifest.keepFiles) -notcontains $jar.Name) { $obsolete=$true } }
+        foreach ($jar in Get-ChildItem -LiteralPath $taskMods -File | Where-Object { $_.Name -match '\.jar(\.disabled)?$' }) {
+            $nameWithoutDisabled=$jar.Name -replace '\.disabled$',''
+            if ($expectedFiles.ContainsKey($nameWithoutDisabled)) { continue }
+            $obsolete=Test-RetiredModName $jar.Name
             foreach ($id in @(Get-ModIds $jar.FullName)) { if ($expectedIds.ContainsKey($id)) { $obsolete=$true } }
-            foreach ($rule in $manifest.modPrefixes) { if ($expectedFiles.ContainsKey($rule.file) -and $jar.Name -match ('^'+[regex]::Escape($rule.prefix)+'[0-9]')) { $obsolete=$true } }
-            if ($obsolete) { $remove.Add($jar.FullName) }
+            if ($obsolete) { $remove.Add($jar.FullName); [void]$retiredNames.Add($jar.Name); [void]$retiredNames.Add($nameWithoutDisabled) }
         }
     }
     Write-Host "$correct mod files already correct; $($operations.Count) files to install; $($remove.Count) obsolete pack JARs to remove."
@@ -271,10 +278,14 @@ try {
     }
     if ($profileMetadata) {
         $metadataChanged=$false
+        $retainedAddons=[Collections.Generic.List[object]]::new()
         foreach ($addon in $profileMetadata.installedAddons) {
+            $addonFile=[string]$addon.installedFile.fileName
+            if ($retiredNames.Contains($addonFile) -or (Test-RetiredModName $addonFile)) { $metadataChanged=$true; continue }
             if ($expectedFiles.ContainsKey([string]$addon.installedFile.fileName) -and $addon.isEnabled -eq $false) { $addon.isEnabled=$true; $metadataChanged=$true }
+            $retainedAddons.Add($addon)
         }
-        if ($metadataChanged) { [IO.File]::WriteAllText($metadataPath,($profileMetadata | ConvertTo-Json -Depth 100),[Text.UTF8Encoding]::new($false)) }
+        if ($metadataChanged) { $profileMetadata | Add-Member -NotePropertyName installedAddons -NotePropertyValue @($retainedAddons.ToArray()) -Force; [IO.File]::WriteAllText($metadataPath,($profileMetadata | ConvertTo-Json -Depth 100),[Text.UTF8Encoding]::new($false)) }
     }
     Write-Host "Client is current: $($manifest.version). No backups created."
     Write-Host 'Saves, screenshots, maps, controls, shader selections and unrelated mods are preserved.'

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "minimumInstallerVersion": 3,
-  "version": "client-star-1.3.1",
+  "minimumInstallerVersion": 4,
+  "version": "client-star-1.3.2",
   "minecraft": "1.21.1",
   "neoforge": "21.1.250",
   "activationPending": false,
@@ -17615,7 +17615,7 @@
     "file": "Blacksite-Client-Files.zip",
     "size": 13476665,
     "sha256": "b458e255cc77181224bcfedc06191b484cf69924d57f37a896337c84bdbd6a2e",
-    "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.3.1/Blacksite-Client-Files.zip"
+    "url": "https://github.com/zazu197/blacksite-zeta-client-updates/releases/download/client-star-1.3.2/Blacksite-Client-Files.zip"
   },
   "removePrefixes": [
     "dirt_slabs-",
@@ -17623,7 +17623,7 @@
     "blacksite-platform-"
   ],
   "keepFiles": [
-    "blacksite-platform-1.4.0.jar"
+    "blacksite-platform-1.4.1.jar"
   ],
   "modPrefixes": [
     {

@@ -1,6 +1,6 @@
 # Blacksite Zeta client mods
 
-client-star-1.3.1: 287 required mods and 4 optional performance mods.
+client-star-1.3.2: 287 required mods and 4 optional performance mods.
 
 | Mod | File | Required |
 |---|---|---|
@@ -86,7 +86,7 @@ client-star-1.3.1: 287 required mods and 4 optional performance mods.
 | Ars Creo | `ars_creo-1.21.1-5.4.0.jar` | Yes |
 | Ars Elemental | `ars_elemental-1.21.1-0.7.10.3.jar` | Yes |
 | Ars Nouveau | `ars_nouveau-1.21.1-5.13.3.jar` | Yes |
-| Ars Énergistique | `arseng-2.1.1-beta.jar` | Yes |
+| Ars Ã‰nergistique | `arseng-2.1.1-beta.jar` | Yes |
 | Artifacts | `artifacts-neoforge-13.2.5.jar` | Yes |
 | Azimuth | `azimuth-1.4.8.jar` | Yes |
 | Backpacked | `backpacked-neoforge-1.21.1-3.0.5.jar` | Yes |

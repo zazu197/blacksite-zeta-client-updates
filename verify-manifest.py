@@ -24,4 +24,4 @@ assert json.loads((out/'installer-verification.json').read_text())['passed']
 assert json.loads((out/'package-verification.json').read_text())['passed']
 print('Validated complete client manifest, 287 required and four optional mod files, 66 quest chapters, and verified no-backup updater.')
 
-assert "createbetterfps" in ids and m["minimumInstallerVersion"]==3
+assert "createbetterfps" in ids and m["minimumInstallerVersion"]==4
